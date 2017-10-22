@@ -1,0 +1,49 @@
+package com.tavsify.berkantkz.klu;
+
+/**
+ * Created by Bilgisayar on 14.10.2017.
+ */
+
+public class KLU_List {
+    private String id;
+    private String title;
+    private String aciklama;
+    private String start;
+
+    KLU_List() {
+
+    }
+
+    String getId() {
+        return title;
+    }
+
+    void setId(String id) {
+        this.id = id;
+    }
+
+    String getTitle() {
+        return title;
+    }
+
+    void setTitle(String title) {
+        this.title = title;
+    }
+
+    String getAciklama() {
+        return aciklama;
+    }
+
+    void setAciklama(String aciklama) {
+        this.aciklama = aciklama;
+    }
+
+    String getStart() {
+        return start;
+    }
+
+    void setStart(String start) {
+        this.start = start;
+    }
+
+}
