@@ -12,6 +12,8 @@ jdk:
 before_install:
 - chmod +x gradlew
 script: "./gradlew build"
+after_success:
+- sh set_tags.sh
 cache:
   directories:
   - "$HOME/.m2"
@@ -21,11 +23,7 @@ cache:
 deploy:
   provider: releases
   api_key:
-    secure: siscJ4VPSBu2sjJ6weOFjvZzJ20aokOsxV/uQikSVGyBP2AIhlXVNEsSpC+9MepUBgZ2qQKDdkL/hjZawk0ZKtATZYprYgdSxIN8GbHv//cjL/KOSqDB2yseoR89AGr+qpeQoz8P2IoDvEA8MYp0pzNHt8pP96JU2Lz742iZzT9+ByHuXcGO02dVMjk9b1fy099QZPt4s688A7/LBHnXRKgbudS66+ZdfQE1cPlrgS2TC0Y50q7nOpBUCZQ3v1W1BJPKANQcCE6X06uih/rmJQp9dNW7wLaiFxTRq6NOxhcYvnCEM1ty7OS2g1TJlcaeFGuUrsUnZ4UFYegXExbMiEDAu1PqEN1t7+S0JQNLGmN5dABD4XcbiFsUaiGMEieULpC69kNNRxshkC+Yqbr3sLYXCDKL0qyTlbbL4A/DqbPVckqiGXlI5dUCbtmYt7j7mAGPuhzi5p6QGYhmqse8P0DEzlsjDqS0z8+jfSQtd9ovKfk9WA3h38pcpCFieOOg8dOM2q9agc9/Hibvnh9Atojng1VNt+17HO3PNmmxYcAuAxXcGEi6c5fa6si4LMDkG5oHhzD0yqAOnaXFxLkReXj+yP9Vj0jcroeGKxBTSXPuaGkKUZrRIHdzwpdkT9FzFodmNaomLdRMZfAixY71tEGrHDw0qygO0U5sZRityxo=
+    secure: oQiiXfrbgBwrVjY4tXious1j/RHiIfqRjSXc8g7HPBgrXKtvRen1tl+fJvuAcsmyVtXzCa7ALls2il5Tps6qNTpHATwT9LT5VcycXQWOC5v6xmYeOjud285yOEjl8tjWYure/DFCKAuun4r15YkY9P0LDlhHOhzqp3fOphRi8iG6ds+b8zlM77JW3aZGjwlaJoXBwlki+aSKaRiSPn3FDgddhwYiME6P9yngvwKOJHXLBB6t/Ht/ZEvE79YBvCBCmCgqHVcG9frbS71o91X/3jSRbYbPJmUkWoznrXjira8Zuy6sPxJBwTrZrhUFyakIFSzAKAT6iGlQKEUHRD+MTa/M7AHXo6AM/XZfGGcEG2kX6xTyexUkCYY7xDd9Rk0XTmXHzMPLMBPhybgLE4zUKpjyFeDeetHsq9fWzNtpylVgEyeGWlHrYfYz3qZBuLGnjseliZh0SDnskErvOcSxLW4frAdD6XVzKj1jujMhI+Dl4B+DKEZZu4FvBg32GyMl9gz7OTubYiNfcmeFdfJqnxfAzNiRCxVB/lLdyi+lMkuxiyHCi5mxqKBhM392ZTO7IJbC6gBSngwEqmx38Thin3FnjpOA2Y0aj7mvILrY45EJlnqJMIiE9tsu39l0bPli36nDqFdnQIdTSbD9lmfDSc2wmVcPlhxk5Kjp00g+uqs=
   file: app/build/outputs/apk/app-debug.apk
-  skip_cleanup: "true"
   on:
     repo: berkantkz/KLU_Yemek
-    
-   after_success:
-    - sh set_tags.sh
