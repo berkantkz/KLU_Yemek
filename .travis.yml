@@ -12,6 +12,14 @@ jdk:
 before_install:
 - chmod +x gradlew
 - echo 'count=0' > /home/travis/.android/repositories.cfg
+install:
+  - echo yes | sdkmanager "tools"
+  - echo yes | sdkmanager "platforms;android-25" 
+  - echo yes | sdkmanager "platforms;android-${API}" 
+  - echo yes | sdkmanager "extras;android;m2repository"
+  - echo yes | sdkmanager "extras;google;m2repository"
+  - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2"
+  - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2"
 script: "./gradlew build"
 after_success:
 - sh set_tags.sh
