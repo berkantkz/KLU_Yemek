@@ -15,7 +15,6 @@ before_install:
 install:
   - echo yes | sdkmanager "tools"
   - echo yes | sdkmanager "platforms;android-25" 
-  - echo yes | sdkmanager "platforms;android-${API}" 
   - echo yes | sdkmanager "extras;android;m2repository"
   - echo yes | sdkmanager "extras;google;m2repository"
   - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2"
