@@ -21,6 +21,11 @@ android {
     useLibrary 'org.apache.http.legacy'
 }
 
+repositories {
+    maven { url "https://jitpack.io" }
+    maven { url "https://maven.fabric.io/public" }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
