@@ -11,6 +11,7 @@ jdk:
 - oraclejdk8
 before_install:
 - chmod +x gradlew
+- echo 'count=0' > /home/travis/.android/repositories.cfg
 script: "./gradlew build"
 after_success:
 - sh set_tags.sh
