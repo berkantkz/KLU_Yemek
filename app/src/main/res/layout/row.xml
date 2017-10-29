@@ -4,8 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_gravity="left"
-    android:gravity="left"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
@@ -14,6 +12,5 @@
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:textSize="7pt"
-        android:textStyle="bold"
-        android:textAlignment="left"/>
+        android:textStyle="bold"/>
 </LinearLayout>
