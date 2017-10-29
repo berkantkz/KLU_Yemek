@@ -14,12 +14,9 @@ if [ "$TRAVIS_BRANCH" = "$BRANCH" ]; then
       git config --global user.name "Travis"
 
       # Add tag and push to master.
-	  git add .
-      #git tag -a v${TRAVIS_BUILD_NUMBER} -m "Push build $TRAVIS_BUILD_NUMBER"
-      #git push origin --tags
-      #git fetch origin
-	  git commit -am "v${TRAVIS_BUILD_NUMBER}"
-	  git push
+      git tag -a v${TRAVIS_BUILD_NUMBER} -m "Travis build $TRAVIS_BUILD_NUMBER is pushed."
+      git push origin --tags
+      git fetch origin
 
       echo -e "Done magic with tags.\n"
   fi
