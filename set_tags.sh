@@ -1,24 +1,25 @@
-BRANCH="master"
-
-# Are we on the right branch?
-if [ "$TRAVIS_BRANCH" = "$BRANCH" ]; then
+  #create a new directory that will contain out generated apk
+  mkdir $HOME/buildApk/
   
-  # Is this not a Pull Request?
-  if [ "$TRAVIS_PULL_REQUEST" = false ]; then
-    
-    # Is this not a build which was triggered by setting a new tag?
-    if [ -z "$TRAVIS_TAG" ]; then
-      echo -e "Starting to tag commit.\n"
-
-      git config --global user.email "travis@travis-ci.org"
-      git config --global user.name "Travis"
-
-      # Add tag and push to master.
-      git tag -a v${TRAVIS_BUILD_NUMBER} -m "Travis build $TRAVIS_BUILD_NUMBER is pushed."
-      git push origin --tags
-      git fetch origin
-
-      echo -e "Done magic with tags.\n"
-  fi
-  fi
-fi
+  #copy generated apk from build folder to the folder just created
+  cp -R app/build/outputs/apk/app-debug.apk $HOME/android/
+  
+  #go to home and setup git  
+  cd $HOME
+  git config --global user.email "berkantk3@gmail.com"
+  git config --global user.name "Berkant Korkmaz" 
+  
+  #clone the repository in the buildApk folder
+  git clone --quiet --branch=master  https://berkantkz:$GITHUB_API_KEY@github.com/berkantkz/KLU_Yemek  master > /dev/null
+  
+  #go into directory and copy data we're interested
+  cd master  cp -Rf $HOME/android/* .
+  
+  #add, commit and push files
+  git add -f .
+  git remote rm origin
+  git remote add origin https://berkantkz:$GITHUB_API_KEY@github.com/berkantkz/KLU_Yemek.git
+  git add -f .
+  git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed [skip ci] "
+  git push -fq origin master > /dev/null
+  echo -e "Done\n"
