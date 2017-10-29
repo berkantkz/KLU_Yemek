@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 new AlertDialog.Builder(MainActivity.this)
                         .setTitle(list.get(position).getStart().replace("00:00:00","") + " " + list.get(position).getTitle())
-                        .setMessage(list.get(position).getAciklama())
+                        .setMessage(list.get(position).getAciklama() + "\n\n @berkantkz")
                         .setPositiveButton("TAMAM",null)
                         .show();
             }
