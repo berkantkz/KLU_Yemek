@@ -12,6 +12,12 @@ import android.widget.GridView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -30,11 +36,23 @@ public class MainActivity extends AppCompatActivity {
 
     static ArrayList<KLU_List> list;
     KLU_Adapter adapter;
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        MobileAds.initialize(getApplicationContext(),"ca-app-pub-2951689275458403~2892686723");
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-2951689275458403/2628252404");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+        mInterstitialAd.show();
+        
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         list = new ArrayList<>();
 
@@ -49,10 +67,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 new AlertDialog.Builder(MainActivity.this)
-                        .setTitle(list.get(position).getStart().replace("00:00:00","") + " " + list.get(position).getTitle())
-                        .setMessage(list.get(position).getAciklama() + "\n\n @berkantkz")
+                        .setTitle(list.get(position).getStart().replace("00:00:00","").replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + list.get(position).getTitle())
+                        .setMessage(list.get(position).getAciklama().replace(",","") + "\n\n @berkantkz")
                         .setPositiveButton("TAMAM",null)
                         .show();
+                mInterstitialAd.show();
             }
         });
 
@@ -127,6 +146,7 @@ public class MainActivity extends AppCompatActivity {
                     .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. Uygulama kaynağını bu adreste bulabilirsiniz: https://github.com/berkantkz/KLU_Yemek \n\n - Berkant Korkmaz, berkantkz")
                     .setPositiveButton("TAMAM",null)
                     .show();
+            mInterstitialAd.show();
         }
 
         return super.onOptionsItemSelected(item);
