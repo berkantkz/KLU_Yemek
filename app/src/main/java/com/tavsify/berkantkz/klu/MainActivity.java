@@ -12,6 +12,7 @@ import android.widget.GridView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
@@ -44,11 +45,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         MobileAds.initialize(getApplicationContext(),"ca-app-pub-2951689275458403~2892686723");
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-2951689275458403/2628252404");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-
-        mInterstitialAd.show();
+        startInterstitialAd();
         
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -71,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                         .setMessage(list.get(position).getAciklama().replace(",","") + "\n\n @berkantkz")
                         .setPositiveButton("TAMAM",null)
                         .show();
-                mInterstitialAd.show();
+                startInterstitialAd();
             }
         });
 
@@ -146,9 +143,21 @@ public class MainActivity extends AppCompatActivity {
                     .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. Uygulama kaynağını bu adreste bulabilirsiniz: https://github.com/berkantkz/KLU_Yemek \n\n - Berkant Korkmaz, berkantkz")
                     .setPositiveButton("TAMAM",null)
                     .show();
-            mInterstitialAd.show();
+            startInterstitialAd();
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void startInterstitialAd() {
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-2951689275458403/2628252404");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                mInterstitialAd.show();
+            }
+        });
     }
 }
