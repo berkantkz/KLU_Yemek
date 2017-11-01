@@ -1,0 +1,354 @@
+[  
+   {  
+      "id":"1541",
+      "title":"PER\u015eEMBE",
+      "aciklama":"D\u00dc\u011e\u00dcN \u00c7ORBA,\nKABAK DOLMA (YO\u011eURT),\nTAVUKLU BEZELYE,\nPEYN\u0130RL\u0130 ER\u0130\u015eTE,\nTULUMBA TATLISI",
+      "start":"2017-11-30 00:00:00",
+      "end":"2017-11-30 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1540",
+      "title":"\u00c7AR\u015eAMBA",
+      "aciklama":"MERC\u0130MEK \u00c7ORBA,\nTAVUK D\u00d6NER,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
+      "start":"2017-11-29 00:00:00",
+      "end":"2017-11-29 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1539",
+      "title":"SALI",
+      "aciklama":"K\u00d6YL\u00dc \u00c7ORBA,\n\u0130\u00c7L\u0130 K\u00d6FTE,\nSEBZEL\u0130 TAVUK SOTE,\nSOSLU MAKARNA,\nMEYVE",
+      "start":"2017-11-28 00:00:00",
+      "end":"2017-11-28 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1538",
+      "title":"PAZARTES\u0130",
+      "aciklama":"EZOGEL\u0130N \u00c7ORBA,\nETL\u0130 KURU FASULYE,\nNUGGET,\nBULGUR P\u0130LAVI,\nKOMPOSTO",
+      "start":"2017-11-27 00:00:00",
+      "end":"2017-11-27 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1537",
+      "title":"CUMA",
+      "aciklama":"SEBZE \u00c7ORBASI,\nTAS KEBABI,\n\u0130SL\u0130M K\u00d6FTE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nYO\u011eURT",
+      "start":"2017-11-24 00:00:00",
+      "end":"2017-11-24 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1536",
+      "title":"PER\u015eEMBE",
+      "aciklama":"EZOGEL\u0130N \u00c7ORBA,\nYUMURTALI ISPANAK,\nKIYMALI KARNABAHAR,\nYO\u011eURTLU MANTI,\nTR\u0130L\u0130\u00c7E",
+      "start":"2017-11-23 00:00:00",
+      "end":"2017-11-23 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1535",
+      "title":"\u00c7AR\u015eAMBA",
+      "aciklama":"TARHANA \u00c7ORBA,\nTAVUK KAPAMA,\nZEYT\u0130NYA\u011eLI BARBUNYA,\nAYRAN",
+      "start":"2017-11-22 00:00:00",
+      "end":"2017-11-22 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1534",
+      "title":"SALI",
+      "aciklama":"YE\u015e\u0130L MERC\u0130MEK \u00c7ORBASI,\nROSTO K\u00d6FTE,\nHA\u015eLAMA TAVUK,          \nBULGUR P\u0130LAVI,\nMEYVE",
+      "start":"2017-11-21 00:00:00",
+      "end":"2017-11-21 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1533",
+      "title":"PAZARTES\u0130",
+      "aciklama":"YAYLA \u00c7ORBA,\nPATATES OTURTMA,\n\u015e\u0130N\u0130TZEL,\nMAKARNA,\n\u0130RM\u0130K HELVASI",
+      "start":"2017-11-20 00:00:00",
+      "end":"2017-11-20 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1532",
+      "title":"CUMA",
+      "aciklama":"TARHANA \u00c7ORBA,\nORMAN KEBABI,\n\u0130ZM\u0130R K\u00d6FTE,\nSOSLU MAKARNA,\nMEYVE",
+      "start":"2017-11-17 00:00:00",
+      "end":"2017-11-17 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1531",
+      "title":"PER\u015eEMBE",
+      "aciklama":"TAVUK SUYU \u00c7ORBA,\nB\u0130BER DOLMA (YO\u011eURT),\nKIYMALI BEZELYE,\nG\u00dcL B\u00d6RE\u011e\u0130,\nKOMPOSTO,\nKE\u015eK\u00dcL",
+      "start":"2017-11-16 00:00:00",
+      "end":"2017-11-16 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1530",
+      "title":"\u00c7AR\u015eAMBA",
+      "aciklama":"MAHLUTA \u00c7ORBA,\nTAVUK D\u00d6NER,\nP\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
+      "start":"2017-11-15 00:00:00",
+      "end":"2017-11-15 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1529",
+      "title":"SALI",
+      "aciklama":"MANTAR \u00c7ORBA,\nTERB\u0130YEL\u0130 K\u00d6FTE,\nK\u00d6R\u0130 SOSLU TAVUK,\nBULGUR P\u0130LAVI,\nMEYVE",
+      "start":"2017-11-14 00:00:00",
+      "end":"2017-11-14 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1528",
+      "title":"PAZARTES\u0130",
+      "aciklama":"\u015e\u0130FA \u00c7ORBA,\nETL\u0130 KURU FASULYE,\nPATLICAN MUSAKKA,\nP\u0130R\u0130N\u00c7 P\u0130LAVI,\nCACIK",
+      "start":"2017-11-13 00:00:00",
+      "end":"2017-11-13 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1527",
+      "title":"CUMA",
+      "aciklama":"EZOGEL\u0130N \u00c7ORBA,\nKA\u011eIT KEBABI,\nM\u0130T\u0130T\u0130 K\u00d6FTE,\nARPA \u015eEHR\u0130YE P\u0130LAVI,\nMEYVE",
+      "start":"2017-11-10 00:00:00",
+      "end":"2017-11-10 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1526",
+      "title":"PER\u015eEMBE",
+      "aciklama":"TAVUKSUYU \u00c7ORBA,\nETL\u0130 T\u00dcRL\u00dc,\nKIYMALI YE\u015e\u0130L MERC\u0130MEK,\nER\u0130\u015eTE,\nKAZAND\u0130B\u0130",
+      "start":"2017-11-09 00:00:00",
+      "end":"2017-11-09 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1525",
+      "title":"\u00c7AR\u015eAMBA",
+      "aciklama":"MERC\u0130MEK \u00c7ORBA,\nTAVUK \u015e\u0130\u015e,\nBULGUR P\u0130LAVI,\nAYRAN",
+      "start":"2017-11-08 00:00:00",
+      "end":"2017-11-08 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1524",
+      "title":"SALI",
+      "aciklama":"K\u00d6YL\u00dc \u00c7ORBA,\nFIRIN TAVUK,\nKADINBUDU K\u00d6FTE,\nKUSKUS MAKARNA,\nKOMPOSTO",
+      "start":"2017-11-07 00:00:00",
+      "end":"2017-11-07 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1523",
+      "title":"PAZARTES\u0130",
+      "aciklama":"TARHANA \u00c7ORBA,\nETL\u0130 NOHUT,\nKARNIYARIK,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nCACIK",
+      "start":"2017-11-06 00:00:00",
+      "end":"2017-11-06 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1522",
+      "title":"CUMA",
+      "aciklama":"DOMATES \u00c7ORBASI,\nANKARA TAVA,\n\u0130\u00c7L\u0130 K\u00d6FTE,\nZEYT\u0130NYA\u011eLI BARBUNYA,\nYO\u011eURT",
+      "start":"2017-11-03 00:00:00",
+      "end":"2017-11-03 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1521",
+      "title":"PER\u015eEMBE",
+      "aciklama":"MERC\u0130MEK \u00c7ORBASI,\nPATLICAN MUSAKKA,\nTAVUKLU BEZELYE,\nBULGUR P\u0130LAVI,\nAYVA KOMPOSTO",
+      "start":"2017-11-02 00:00:00",
+      "end":"2017-11-02 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1520",
+      "title":"\u00c7AR\u015eAMBA",
+      "aciklama":"TARHANA \u00c7ORBA,\nTAVUK KAPAMA,\nYO\u011eURTLU HAVU\u00c7,\nMEYVE",
+      "start":"2017-11-01 00:00:00",
+      "end":"2017-11-01 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1517",
+      "title":"SALI",
+      "aciklama":"YAYLA \u00c7ORBA,\nROSTO K\u00d6FTE,\nNUGGET (ELMA D\u0130L\u0130M PATATES),\nSOSLU MAKARNA,\nAYRAN",
+      "start":"2017-10-31 00:00:00",
+      "end":"2017-10-31 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1516",
+      "title":"PAZARTES\u0130",
+      "aciklama":"SEBZE \u00c7ORBA,\nETL\u0130 KURU FASULYE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nMEYVE",
+      "start":"2017-10-30 00:00:00",
+      "end":"2017-10-30 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1515",
+      "title":"CUMA",
+      "aciklama":"TARHANA \u00c7ORBA,\nBAH\u00c7IVAN KEBABI,\n\u0130\u00c7L\u0130 K\u00d6FTE,\nKUSKUS P\u0130LAVI,\nPEMBE SULTAN",
+      "start":"2017-10-27 00:00:00",
+      "end":"2017-10-27 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1514",
+      "title":"PER\u015eEMBE",
+      "aciklama":"\u015eAFAK \u00c7ORBA,\nKIYMALI BEZELYE,\nKABAK DOLMA,\nSOSLU MAKARNA,\nA\u015eURE",
+      "start":"2017-10-26 00:00:00",
+      "end":"2017-10-26 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1513",
+      "title":"\u00c7AR\u015eAMBA",
+      "aciklama":"MAHLUTA \u00c7ORBA,\nTAVUK D\u00d6NER,\nPATATES SALATASI,\nP\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
+      "start":"2017-10-25 00:00:00",
+      "end":"2017-10-25 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1512",
+      "title":"SALI",
+      "aciklama":"YAYLA \u00c7ORBA,\nTERB\u0130YEL\u0130 K\u00d6FTE,\nK\u00d6R\u0130 SOSLU TAVUK,\nBULGUR P\u0130LAVI,\nMEYVE",
+      "start":"2017-10-24 00:00:00",
+      "end":"2017-10-24 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1511",
+      "title":"PAZARTES\u0130",
+      "aciklama":"TAVUK SUYU \u00c7ORBA,\n\u015e\u0130N\u0130TZEL,\nMEVS\u0130M SALATA,\nPATATES MUSAKKA,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\n\u0130RM\u0130K HELVASI",
+      "start":"2017-10-23 00:00:00",
+      "end":"2017-10-23 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1510",
+      "title":"CUMA",
+      "aciklama":"\u015eEHR\u0130YE \u00c7ORBA,\nTAS KEBABI,\nM\u0130T\u0130T\u0130 K\u00d6FTE,\nP\u0130R\u0130N\u00c7 P\u0130LAVI,\nCACIK",
+      "start":"2017-10-20 00:00:00",
+      "end":"2017-10-20 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1509",
+      "title":"PER\u015eEMBE",
+      "aciklama":"\u015e\u0130FA \u00c7ORBA,\nKIYMALI ISPANAK,\nB\u0130BER DOLMA,\nG\u00dcL B\u00d6RE\u011e\u0130,\nAYRAN",
+      "start":"2017-10-19 00:00:00",
+      "end":"2017-10-19 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1508",
+      "title":"\u00c7AR\u015eAMBA",
+      "aciklama":"YE\u015e\u0130L MERC\u0130MEK \u00c7ORBA,\nTAVUK KAPAMA,\nYO\u011eURTLU HAVU\u00c7,\nMEYVE",
+      "start":"2017-10-18 00:00:00",
+      "end":"2017-10-18 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1507",
+      "title":"SALI",
+      "aciklama":"YAYLA \u00c7ORBA,\nHASANPA\u015eA K\u00d6FTE,\nTAVUK SOTE,\nPEYN\u0130RL\u0130 MAKARNA, \nMEVS\u0130M SALATA",
+      "start":"2017-10-17 00:00:00",
+      "end":"2017-10-17 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1506",
+      "title":"PAZARTES\u0130",
+      "aciklama":"TARHANA \u00c7ORBA,\nETL\u0130 NOHUT,\n\u015e\u0130N\u0130TZEL (ELMA D\u0130L\u0130M PATATES),\n\u015eEHR\u0130YEL\u0130 BULGUR P\u0130LAVI,\nTUR\u015eU",
+      "start":"2017-10-16 00:00:00",
+      "end":"2017-10-16 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1505",
+      "title":"CUMA",
+      "aciklama":"YAYLA \u00c7ORBA,\nORMAN KEBABI,\nSEBZEL\u0130 K\u00d6FTE,\nER\u0130\u015eTE,\nYO\u011eURT",
+      "start":"2017-10-13 00:00:00",
+      "end":"2017-10-13 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1504",
+      "title":"PER\u015eEMBE",
+      "aciklama":"DOMATES \u00c7ORBA,\nPATLICAN MUSAKKA,\nETL\u0130 TAZE FASULYE,\nP\u0130R\u0130N\u00c7 P\u0130LAVI,\nCACIK",
+      "start":"2017-10-12 00:00:00",
+      "end":"2017-10-12 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1503",
+      "title":"\u00c7AR\u015eAMBA",
+      "aciklama":"K\u00d6YL\u00dc \u00c7ORBA,\nFIRIN TAVUK (ELMA D\u0130L\u0130M PATATES),\nBULGUR P\u0130LAVI,\nAYRAN",
+      "start":"2017-10-11 00:00:00",
+      "end":"2017-10-11 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1502",
+      "title":"SALI",
+      "aciklama":"MAHLUTA \u00c7ORBA,\nEK\u015e\u0130L\u0130 K\u00d6FTE,\nNUGGET (MEVS\u0130M SALATA),\nSOSLU MAKARNA,\nMEYVE",
+      "start":"2017-10-10 00:00:00",
+      "end":"2017-10-10 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1501",
+      "title":"PAZARTES\u0130",
+      "aciklama":"PRENSES \u00c7ORBA,\nETL\u0130 KURU FASULYE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nBALLI BALLIM",
+      "start":"2017-10-09 00:00:00",
+      "end":"2017-10-09 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1500",
+      "title":"CUMA",
+      "aciklama":"MERC\u0130MEK \u00c7ORBA,\nSEBZEL\u0130 KEBAP,\n\u0130\u00c7L\u0130 K\u00d6FTE(PATATES P\u00dcRES\u0130),\nMAKARNA,\nA\u015eURE",
+      "start":"2017-10-06 00:00:00",
+      "end":"2017-10-06 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1499",
+      "title":"PER\u015eEMBE",
+      "aciklama":"\u015eAFAK \u00c7ORBA,\nETL\u0130 T\u00dcRL\u00dc,\nKIYMALI YE\u015e\u0130L MERC\u0130MEK,\nER\u0130\u015eTE,\nMEYVE",
+      "start":"2017-10-05 00:00:00",
+      "end":"2017-10-05 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1498",
+      "title":"\u00c7AR\u015eAMBA",
+      "aciklama":"DOMATES \u00c7ORBA,\nTAVUK ARNAVUT C\u0130\u011eER\u0130,\nSEBZEL\u0130 TAVUK SOTE,\nMEYHANE P\u0130LAVI,\nAYRAN",
+      "start":"2017-10-04 00:00:00",
+      "end":"2017-10-04 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1497",
+      "title":"SALI",
+      "aciklama":"YAYLA \u00c7ORBA,\nROSTO K\u00d6FTE (PATATES P\u00dcRES\u0130),\n\u015e\u0130N\u0130TZEL (ELMA D\u0130L\u0130M PATATES),\nSOSLU MAKARNA,\nPUD\u0130NG",
+      "start":"2017-10-03 00:00:00",
+      "end":"2017-10-03 00:00:00",
+      "allDay":"1"
+   },
+   {  
+      "id":"1496",
+      "title":"PAZARTES\u0130",
+      "aciklama":"SEBZE \u00c7ORBASI,\nETL\u0130 NOHUT,\nPATATES OTURTMA,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nMEVS\u0130M SALATA",
+      "start":"2017-10-02 00:00:00",
+      "end":"2017-10-02 00:00:00",
+      "allDay":"1"
+   }
+]
