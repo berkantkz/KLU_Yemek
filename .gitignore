@@ -1,0 +1,14 @@
+*.*
+!gradle
+!.gitignore
+!.travis.yml
+!build.gradle
+!gradle.properties
+!gradlew
+!gradlew.bat
+!LICENSE
+!MyApplication.iml
+!README.md
+!set_tags.sh
+!settings.gradle
+!app
