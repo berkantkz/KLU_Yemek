@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
         list = new ArrayList<>();
 
-        new JSONAsyncTask().execute("https://bitbucket.org/berkantkz/misc/raw/5d1245ac3643455ee2f97bc2593c89e0aabe9747/klu_yemek.json");
+        new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
 
         final GridView listView = (GridView) findViewById(R.id.lv);
 
