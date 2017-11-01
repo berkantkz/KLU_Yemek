@@ -1,5 +1,4 @@
-*.*
-app/build
+#Track these files
 !gradle
 !.gitignore
 !.travis.yml
@@ -13,3 +12,13 @@ app/build
 !set_tags.sh
 !settings.gradle
 !app
+!app/src
+
+#Untrack these ones
+app/build
+local.properties
+build/
+KLU_Yemek.iml
+.idea/
+.gradle/
+app/app.iml
