@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             new AlertDialog.Builder(MainActivity.this)
                     .setTitle("Hakkında")
-                    .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. Uygulama kaynağını bu adreste bulabilirsiniz: https://github.com/berkantkz/KLU_Yemek \n\n - Berkant Korkmaz, berkantkz")
+                    .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. Amacım, insanlara fayda sağlarken gelir elde etmektir. \n\nUygulama kaynağını bu adreste bulabilirsiniz: https://github.com/berkantkz/KLU_Yemek \n\n - Berkant Korkmaz, berkantkz")
                     .setPositiveButton("TAMAM",null)
                     .show();
             startInterstitialAd();
