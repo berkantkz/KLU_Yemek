@@ -6,7 +6,7 @@
 
 Uygulamanın ana çalışma mantığı JSON'u parçalayarak listemektir. Asıl JSON listesi [bu adreste](https://berkantkz.github.io/KLU_Yemek/list.json) bulunabilir.
 
-##### *Kırklareli Üniversitesi Resmi Yemek Takvimi Web Sayfası:* http://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu
+##### *Kırklareli Üniversitesi Resmi Yemek Takvimi Web Sayfası:* [http://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu](http://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu)
 
 
 İnşa durumu: [![Build Status](https://travis-ci.org/berkantkz/KLU_Yemek.svg?branch=master)](https://travis-ci.org/berkantkz/KLU_Yemek)
@@ -36,7 +36,7 @@ Beta-1.0    || [https://goo.gl/4XLy75](https://goo.gl/4XLy75)   	|| [https://git
 Beta-1.1	|| [https://goo.gl/LSuUEh](https://goo.gl/LSuUEh)    	|| [https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk)
 
 
-> _Kaynakta yapılan her türlü günncellemeleri/değişiklikleri [bu adres](https://github.com/berkantkz/KLU_Yemek/commits/master)ten takip edebilirsiniz._
+> _Kaynakta yapılan her türlü güncellemeleri/değişiklikleri [bu adres](https://github.com/berkantkz/KLU_Yemek/commits/master)ten takip edebilirsiniz._
 
 
 ----------
