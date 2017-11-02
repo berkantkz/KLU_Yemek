@@ -1,5 +1,9 @@
 package com.tavsify.berkantkz.klu;
 
+import android.content.Context;
+import android.content.DialogInterface;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
@@ -38,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     static ArrayList<KLU_List> list;
     KLU_Adapter adapter;
     private InterstitialAd mInterstitialAd;
+    static ProgressBar pb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,9 +56,15 @@ public class MainActivity extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
+        pb = (ProgressBar) findViewById(R.id.pb);
+
         list = new ArrayList<>();
 
-        new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
+        if(isNetworkAvailable()) {
+            startLoading();
+        } else {
+            noNetwork();
+        }
 
         final GridView listView = (GridView) findViewById(R.id.lv);
 
@@ -74,9 +85,36 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private class JSONAsyncTask extends AsyncTask<String, Void, Boolean> {
+    public void startLoading() {
+        if (isNetworkAvailable()) {
+            new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
+            pb.setVisibility(View.VISIBLE);
+        } else {
+            noNetwork();
+        }
+    }
 
-        ProgressBar pb = (ProgressBar) findViewById(R.id.pb);
+    public void noNetwork() {
+        new AlertDialog.Builder(MainActivity.this)
+                .setTitle("Bağlantı yok")
+                .setMessage("Kullanılabilir bir bağlantı mevcut değil")
+                .setPositiveButton("TEKRAR DENE", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        startLoading();
+                    }
+                })
+                .setNegativeButton("ÇIKIŞ", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                })
+                .show();
+        pb.setVisibility(View.GONE);
+    }
+
+    private class JSONAsyncTask extends AsyncTask<String, Void, Boolean> {
 
         @Override
         protected void onPreExecute() {
@@ -147,6 +185,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
     public void startInterstitialAd() {
