@@ -1,13 +1,12 @@
 
  
-KLÜ Yemek Takvimi Android Uygulaması 
-==================
+# KLÜ Yemek Takvimi Android Uygulaması 
 
 2 aylık listeyi içerir. Sadece görmeyi istediğiniz tarihin üzerine dokunmanız yeterli olacaktır.
 
 Uygulamanın ana çalışma mantığı JSON'u parçalayarak listemektir. Asıl JSON listesi [bu adreste](https://berkantkz.github.io/KLU_Yemek/list.json) bulunabilir.
 
-#####*Kırklareli Üniversitesi Resmi Yemek Takvimi Web Sayfası:* http://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu
+##### *Kırklareli Üniversitesi Resmi Yemek Takvimi Web Sayfası:* http://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu
 
 
 İnşa durumu: [![Build Status](https://travis-ci.org/berkantkz/KLU_Yemek.svg?branch=master)](https://travis-ci.org/berkantkz/KLU_Yemek)
@@ -16,15 +15,15 @@ Uygulamanın ana çalışma mantığı JSON'u parçalayarak listemektir. Asıl J
 ----------
 
 
-#<i class="icon-picture"></i> Ekran Görüntüleri:
-_|_
--|-
-![Ana ekran](https://i.hizliresim.com/NODvpO.png)|![Liste](https://i.hizliresim.com/ROD7P1.png)
+# <i class="icon-picture"></i> Ekran Görüntüleri:
+
+- [Ana ekran](https://i.hizliresim.com/NODvpO.png) 
+- [Liste](https://i.hizliresim.com/ROD7P1.png)
 
 ----------
 
 
-#<i class="icon-download"></i> İndirmeler
+# <i class="icon-download"></i> İndirmeler
 
 Her bir sürüm [GitHub](https://github.com/berkantkz/KLU_Yemek)'da *[releases](https://github.com/berkantkz/KLU_Yemek/releases)* sekmesi altında yayınlanır. 
 
