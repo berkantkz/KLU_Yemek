@@ -31,9 +31,9 @@ Her bir sürüm [GitHub](https://github.com/berkantkz/KLU_Yemek)'da *[releases](
 
 Sürüm		|| Sürüm sayfası 			|| Doğrudan İndirme Adresi
 ----- 		|| ---   					|| ---- 
-Alfa 1 		|| https://goo.gl/gNsYBh 	|| https://github.com/berkantkz/KLU_Yemek/releases/download/alpha1/app-debug.apk
-Beta-1.0    || https://goo.gl/4XLy75   	|| https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.0/app-debug.apk
-Beta-1.1	|| https://goo.gl/LSuUEh    || https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk
+Alfa 1 		|| [https://goo.gl/gNsYBh](https://goo.gl/gNsYBh) 		|| [https://github.com/berkantkz/KLU_Yemek/releases/download/alpha1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/alpha1/app-debug.apk)
+Beta-1.0    || [https://goo.gl/4XLy75](https://goo.gl/4XLy75)   	|| [https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.0/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.0/app-debug.apk)
+Beta-1.1	|| [https://goo.gl/LSuUEh](https://goo.gl/LSuUEh)    	|| [https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk)
 
 
 > _Kaynakta yapılan her türlü günncellemeleri/değişiklikleri [bu adres](https://github.com/berkantkz/KLU_Yemek/commits/master)ten takip edebilirsiniz._
