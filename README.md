@@ -4,7 +4,7 @@
 
 2 aylık listeyi içerir. Sadece görmeyi istediğiniz tarihin üzerine dokunmanız yeterli olacaktır.
 
-Uygulamanın ana çalışma mantığı JSON'u parçalayarak listemektir. Asıl JSON listesi [bu adreste](https://berkantkz.github.io/KLU_Yemek/list.json) bulunabilir.
+Uygulamanın çalışma mantığı JSON'u parçalayarak listelemektir. Kullanılan JSON listesi [bu adreste](https://berkantkz.github.io/KLU_Yemek/list.json) bulunabilir.
 
 ##### *Kırklareli Üniversitesi Resmi Yemek Takvimi Web Sayfası:* [http://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu](http://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu)
 
