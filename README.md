@@ -27,7 +27,7 @@ Uygulamanın çalışma mantığı JSON'u parçalayarak listelemektir. Kullanıl
 
 Her bir sürüm [GitHub](https://github.com/berkantkz/KLU_Yemek)'da *[releases](https://github.com/berkantkz/KLU_Yemek/releases)* sekmesi altında yayınlanır. 
 
-- Güncel yayınlar:
+- En güncel sürüm: _Beta-1.1_
 
 Sürüm		| Sürüm sayfası 			| Doğrudan İndirme Adresi
 ----- 		| ---   					| ---- 
