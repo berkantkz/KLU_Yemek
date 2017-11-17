@@ -14,11 +14,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
@@ -76,8 +74,8 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 new AlertDialog.Builder(MainActivity.this)
                         .setTitle(list.get(position).getStart().replace("00:00:00","").replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + list.get(position).getTitle())
-                        .setMessage(list.get(position).getAciklama().replace(",","") + "\n\n @berkantkz")
-                        .setPositiveButton("TAMAM",null)
+                        .setMessage(list.get(position).getAciklama().replace(",",""))
+                        .setPositiveButton("KAPAT",null)
                         .show();
                 startInterstitialAd();
             }
@@ -89,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
         if (isNetworkAvailable()) {
             new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
             pb.setVisibility(View.VISIBLE);
+            startInterstitialAd();
         } else {
             noNetwork();
         }
@@ -178,8 +177,8 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             new AlertDialog.Builder(MainActivity.this)
                     .setTitle("Hakkında")
-                    .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. Amacım, insanlara fayda sağlarken gelir elde etmektir. \n\nUygulama kaynağını bu adreste bulabilirsiniz: https://github.com/berkantkz/KLU_Yemek \n\n - Berkant Korkmaz, berkantkz")
-                    .setPositiveButton("TAMAM",null)
+                    .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. \n\nUygulama kaynağı GitHub'da bulunabilir: \n https://github.com/berkantkz/KLU_Yemek \n\n - Berkant Korkmaz, berkantkz")
+                    .setPositiveButton("KAPAT",null)
                     .show();
             startInterstitialAd();
         }
