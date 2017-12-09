@@ -41,7 +41,7 @@ class KLU_Adapter extends ArrayAdapter<KLU_List>{
             holder = (ViewHolder) v.getTag();
         }
 
-        holder.start.setText(klist.get(position).getStart().replace("00:00:00", "") + " " + klist.get(position).getTitle());
+        holder.start.setText(klist.get(position).getStart().replace("00:00:00", "").replace("00:00:00","").replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + klist.get(position).getTitle());
 
         return v;
     }
