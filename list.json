@@ -1,178 +1,162 @@
 [
   {
-    "id": "1594",
+    "id": "1615",
     "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "Mahluta \u00c7orbas\u0131,\nTavuk D\u00f6ner   Pilav,\nPatates Salatas\u0131,\nAyran",
-    "start": "2018-01-31 00:00:00",
-    "end": "2018-01-31 00:00:00",
+    "aciklama": "Mercimek \u00c7orbas\u0131,\n\u00c7\u0131t\u0131r Tavuk,\nHavu\u00e7 Tarator,\nKe\u015fk\u00fcl",
+    "start": "2018-02-28 00:00:00",
+    "end": "2018-02-28 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1593",
+    "id": "1614",
     "title": "SALI",
-    "aciklama": "Tarhana \u00c7orbas\u0131,\nRosto k\u00f6fte,\nSoslu Makarna,\nCac\u0131k",
-    "start": "2018-01-30 00:00:00",
-    "end": "2018-01-30 00:00:00",
+    "aciklama": "Ezogelin \u00c7orba,\nRosto K\u00f6fte,\nK\u00f6ri Soslu Tavuk,\nMakarna,\nYo\u011furt",
+    "start": "2018-02-27 00:00:00",
+    "end": "2018-02-27 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1592",
+    "id": "1613",
     "title": "PAZARTES\u0130",
-    "aciklama": "Ye\u015fil Mercimek \u00c7orbas\u0131,\nKuru Fasulye,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nTur\u015fu",
-    "start": "2018-01-29 00:00:00",
-    "end": "2018-01-29 00:00:00",
+    "aciklama": "Tarhana \u00c7orbas\u0131,\nPatates Oturtma,\nCordon Blue,\nBulgur Pilav\u0131,\nAyran",
+    "start": "2018-02-26 00:00:00",
+    "end": "2018-02-26 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1591",
+    "id": "1612",
     "title": "CUMA",
-    "aciklama": "Toyga \u00c7orbas\u0131,\n\u00c7iftlik Kebab\u0131,\nMeyhane Pilav\u0131,\nYo\u011furt",
-    "start": "2018-01-26 00:00:00",
-    "end": "2018-01-26 00:00:00",
+    "aciklama": "Domates \u00c7orbas\u0131,\n\u0130slim Kebab\u0131,\nTas Kebab\u0131,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nYo\u011furt",
+    "start": "2018-02-23 00:00:00",
+    "end": "2018-02-23 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1590",
+    "id": "1611",
     "title": "PER\u015eEMBE",
-    "aciklama": "Prenses \u00c7orbas\u0131,\nK\u0131ymal\u0131 Ye\u015fil Mercimek,\nG\u00fcl B\u00f6re\u011fi,\nKomposto",
-    "start": "2018-01-25 00:00:00",
-    "end": "2018-01-25 00:00:00",
+    "aciklama": "Tavuksuyu \u00c7orba,\nK\u0131ymal\u0131 Karnabahar,\nBiber Dolma,\nB\u00f6rek,\n\u0130rmik Helvas\u0131",
+    "start": "2018-02-22 00:00:00",
+    "end": "2018-02-22 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1589",
+    "id": "1610",
     "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "Ezogelin \u00c7orbas\u0131,\n\u00c7\u0131t\u0131r Tavuk,\nPirin\u00e7 Pilav\u0131,\nAyran",
-    "start": "2018-01-24 00:00:00",
-    "end": "2018-01-24 00:00:00",
+    "aciklama": "Mahluta \u00c7orba,\nF\u0131r\u0131n Tavuk,\nPrenses Pilav\u0131,\nAyran",
+    "start": "2018-02-21 00:00:00",
+    "end": "2018-02-21 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1588",
+    "id": "1609",
     "title": "SALI",
-    "aciklama": "K\u00f6yl\u00fc \u00c7orbas\u0131,\n\u0130\u00e7li K\u00f6fte,\nPeynirli Kuskus,\nBrovni",
-    "start": "2018-01-23 00:00:00",
-    "end": "2018-01-23 00:00:00",
+    "aciklama": "Toyga \u00c7orba,\nKuru K\u00f6fte Ye\u015fillik Garni,\nSebzeli Tavuk,\nBulgur Pilav\u0131,\nKomposto",
+    "start": "2018-02-20 00:00:00",
+    "end": "2018-02-20 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1587",
+    "id": "1608",
     "title": "PAZARTES\u0130",
-    "aciklama": "Sebze \u00c7orbas\u0131,\nPatates Oturtma,\n\u015eehriyeli Bulgur Pilav\u0131,\nMevsim Salata",
-    "start": "2018-01-22 00:00:00",
-    "end": "2018-01-22 00:00:00",
+    "aciklama": "K\u00f6yl\u00fc \u00c7orba,\n\u015einitzel,\nKuru Fasulye,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nKemal Pa\u015fa Tatl\u0131s\u0131",
+    "start": "2018-02-19 00:00:00",
+    "end": "2018-02-19 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1586",
+    "id": "1607",
     "title": "CUMA",
-    "aciklama": "Tarhana \u00c7orbas\u0131,\nKa\u011f\u0131t Kebab\u0131,\nBulgur Pilav\u0131,\nCac\u0131k",
-    "start": "2018-01-19 00:00:00",
-    "end": "2018-01-19 00:00:00",
+    "aciklama": "Ye\u015fil Mercimek \u00c7orbas\u0131,\n\u0130zmir K\u00f6fte,\nTavuklu Samanyolu Kebab\u0131,\nPirin\u00e7 Pilav\u0131,\nYo\u011furt",
+    "start": "2018-02-16 00:00:00",
+    "end": "2018-02-16 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1585",
+    "id": "1606",
     "title": "PER\u015eEMBE",
-    "aciklama": "Tavuklu \u015eehriye \u00c7orbas\u0131,\nK\u0131\u015f T\u00fcrl\u00fcs\u00fc,\nPeynirli Makarna,\nMuzlu Puding",
-    "start": "2018-01-18 00:00:00",
-    "end": "2018-01-18 00:00:00",
+    "aciklama": "Mantar \u00c7orbas\u0131,\nF\u0131r\u0131n Karnabahar,\nYumurtal\u0131 Ispanak,\nMant\u0131,\nTrili\u00e7e",
+    "start": "2018-02-15 00:00:00",
+    "end": "2018-02-15 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1584",
+    "id": "1605",
     "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "Mahluta \u00c7orbas\u0131,\nTavuk \u015ei\u015f,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nAyran",
-    "start": "2018-01-17 00:00:00",
-    "end": "2018-01-17 00:00:00",
+    "aciklama": "Mahluta \u00c7orbas\u0131,\nTavuk D\u00f6ner,\nPirin\u00e7 pilav\u0131,\nAyran",
+    "start": "2018-02-14 00:00:00",
+    "end": "2018-02-14 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1583",
+    "id": "1604",
     "title": "SALI",
-    "aciklama": "Yayla \u00c7orbas\u0131,\nHasanpa\u015fa K\u00f6fte,\nG\u00fcl B\u00f6re\u011fi,\nKomposto",
-    "start": "2018-01-16 00:00:00",
-    "end": "2018-01-16 00:00:00",
+    "aciklama": "Arpa \u015eehriye \u00c7orbas\u0131,\nRosto K\u00f6fte,\nTavuk Sote,\nSoslu Makarna,\nMeyve",
+    "start": "2018-02-13 00:00:00",
+    "end": "2018-02-13 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1582",
+    "id": "1603",
     "title": "PAZARTES\u0130",
-    "aciklama": "Mercimek \u00c7orbas\u0131,\nEtli Nohut,\nPirin\u00e7 Pilav\u0131,\nKemalpa\u015fa Tatl\u0131s\u0131",
-    "start": "2018-01-15 00:00:00",
-    "end": "2018-01-15 00:00:00",
+    "aciklama": "K\u00f6yl\u00fc \u00c7orba,\nNugget,\nEtli Nohut,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nCac\u0131k",
+    "start": "2018-02-12 00:00:00",
+    "end": "2018-02-12 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1581",
-    "title": "SALI",
-    "aciklama": "\u015eifa \u00c7orbas\u0131,\nKad\u0131nbudu K\u00f6fte,\nF\u0131r\u0131n Makarna,\nKomposto",
-    "start": "2018-01-09 00:00:00",
-    "end": "2018-01-09 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1580",
-    "title": "PAZARTES\u0130",
-    "aciklama": "Tarhana \u00c7orbas\u0131,\nPatl\u0131can Musakka,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nCac\u0131k",
-    "start": "2018-01-08 00:00:00",
-    "end": "2018-01-08 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1579",
+    "id": "1602",
     "title": "CUMA",
-    "aciklama": "Domates \u00c7orbas\u0131,\nTas Kebab\u0131,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nMeyve",
-    "start": "2018-01-12 00:00:00",
-    "end": "2018-01-12 00:00:00",
+    "aciklama": "Toyga \u00c7orba,\nTas Kebab\u0131,\n\u015eehriyeli Bulgur Pilav\u0131,\nBall\u0131 Bal\u0131m",
+    "start": "2018-02-09 00:00:00",
+    "end": "2018-02-09 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1578",
+    "id": "1601",
     "title": "PER\u015eEMBE",
-    "aciklama": "Tavuksuyu \u00c7orba,\nKabak Dolma   Yo\u011furt,\nSigara B\u00f6re\u011fi,\n\u015eekerpare",
-    "start": "2018-01-11 00:00:00",
-    "end": "2018-01-11 00:00:00",
+    "aciklama": "Tavuksuyu \u00c7orbas\u0131,\nPatl\u0131can Musakka,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nHo\u015faf",
+    "start": "2018-02-08 00:00:00",
+    "end": "2018-02-08 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1577",
+    "id": "1600",
     "title": "\u00c7AR\u015eAMBA",
     "aciklama": "Mercimek \u00c7orbas\u0131,\nTavuk Kapama,\nPatates Salatas\u0131,\nAyran",
-    "start": "2018-01-10 00:00:00",
-    "end": "2018-01-10 00:00:00",
+    "start": "2018-02-07 00:00:00",
+    "end": "2018-02-07 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1576",
-    "title": "CUMA",
-    "aciklama": "Sebze \u00c7orbas\u0131,\nOrman Kebab\u0131,\nSebzeli Misket K\u00f6fte,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nYo\u011furt",
-    "start": "2018-01-05 00:00:00",
-    "end": "2018-01-05 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1575",
-    "title": "PER\u015eEMBE",
-    "aciklama": "Ezogelin \u00c7orbas\u0131,\nK\u0131ymal\u0131 Karnabahar,\nYumurtal\u0131 Ispanak,\nYo\u011furtlu Mant\u0131,\nKazandibi",
-    "start": "2018-01-04 00:00:00",
-    "end": "2018-01-04 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1574",
-    "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "Tarhana \u00c7orbas\u0131,\n\u00c7\u0131t\u0131r Tavuk,\nSoslu Makarna,\nAyran",
-    "start": "2018-01-03 00:00:00",
-    "end": "2018-01-03 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1573",
+    "id": "1599",
     "title": "SALI",
-    "aciklama": "Pirin\u00e7 \u00c7orbas\u0131,\nEtli Kuru Fasulye,\nNuget,\nBulgur Pilav\u0131,\nMevsim Salata",
-    "start": "2018-01-02 00:00:00",
-    "end": "2018-01-02 00:00:00",
+    "aciklama": "Yayla \u00c7orbas\u0131,\nEk\u015fili K\u00f6fte,\nKabak M\u00fccver,\nMeyve",
+    "start": "2018-02-06 00:00:00",
+    "end": "2018-02-06 00:00:00",
+    "allDay": "1"
+  },
+  {
+    "id": "1598",
+    "title": "PAZARTES\u0130",
+    "aciklama": "Tarhana \u00c7orbas\u0131,\nKuru Fasulye,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nCac\u0131k",
+    "start": "2018-02-05 00:00:00",
+    "end": "2018-02-05 00:00:00",
+    "allDay": "1"
+  },
+  {
+    "id": "1597",
+    "title": "CUMA",
+    "aciklama": "Domates \u00c7orbas\u0131,\nOrman Kebab\u0131,\n\u015eehriyeli Pirin\u00e7 Pilav\u0131,\nYo\u011furt",
+    "start": "2018-02-02 00:00:00",
+    "end": "2018-02-02 00:00:00",
+    "allDay": "1"
+  },
+  {
+    "id": "1596",
+    "title": "PER\u015eEMBE",
+    "aciklama": "D\u00fc\u011f\u00fcn \u00c7orbas\u0131,\nPatl\u0131can-Biber Dolmas\u0131,\nB\u00f6rek,\nKomposto",
+    "start": "2018-02-01 00:00:00",
+    "end": "2018-02-01 00:00:00",
     "allDay": "1"
   }
 ]
