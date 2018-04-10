@@ -1,5 +1,6 @@
 package com.tavsify.berkantkz.klu;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.net.ConnectivityManager;
@@ -36,7 +37,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     TinyDB tinydb;
     static ArrayList<KLU_List> list;
@@ -55,11 +56,11 @@ public class MainActivity extends AppCompatActivity {
         MobileAds.initialize(getApplicationContext(),"ca-app-pub-2951689275458403~2892686723");
         startInterstitialAd();
         
-        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        pb = (ProgressBar) findViewById(R.id.pb);
+        pb = findViewById(R.id.pb);
 
         list = new ArrayList<>();
 
@@ -69,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             noNetwork();
         }
 
-        final GridView listView = (GridView) findViewById(R.id.lv);
+        final GridView listView = findViewById(R.id.lv);
 
         adapter = new KLU_Adapter(getApplicationContext(), R.layout.row, list);
         listView.setAdapter(adapter);
@@ -77,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                new AlertDialog.Builder(MainActivity.this)
+                new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
                         .setTitle(list.get(position).getStart().replace("00:00:00","").replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + list.get(position).getTitle())
                         .setMessage(list.get(position).getAciklama().replace(",",""))
                         .setPositiveButton("KAPAT", null)
@@ -99,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void noNetwork() {
-        new AlertDialog.Builder(MainActivity.this)
+        new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
                 .setTitle("Bağlantı yok")
                 .setMessage("Kullanılabilir bir bağlantı mevcut değil")
                 .setPositiveButton("TEKRAR DENE", new DialogInterface.OnClickListener() {
@@ -180,7 +181,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
-            new AlertDialog.Builder(MainActivity.this)
+            new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
                     .setTitle("Hakkında")
                     .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. \n\nUygulama kaynağı GitHub'da bulunabilir: \n https://github.com/berkantkz/KLU_Yemek \n\n - Berkant Korkmaz, berkantkz")
                     .setPositiveButton("KAPAT", new DialogInterface.OnClickListener() {
