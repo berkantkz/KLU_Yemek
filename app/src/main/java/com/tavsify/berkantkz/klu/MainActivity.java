@@ -14,12 +14,14 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
+import com.tavsify.berkantkz.klu.Utils.TinyDB;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -36,16 +38,19 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    TinyDB tinydb;
     static ArrayList<KLU_List> list;
-    KLU_Adapter adapter;
+    static KLU_Adapter adapter;
     private InterstitialAd mInterstitialAd;
     static ProgressBar pb;
+    int counter = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        tinydb  = new TinyDB(getApplicationContext());
 
         MobileAds.initialize(getApplicationContext(),"ca-app-pub-2951689275458403~2892686723");
         startInterstitialAd();
@@ -75,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                 new AlertDialog.Builder(MainActivity.this)
                         .setTitle(list.get(position).getStart().replace("00:00:00","").replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + list.get(position).getTitle())
                         .setMessage(list.get(position).getAciklama().replace(",",""))
-                        .setPositiveButton("KAPAT",null)
+                        .setPositiveButton("KAPAT", null)
                         .show();
                 startInterstitialAd();
             }
@@ -113,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         pb.setVisibility(View.GONE);
     }
 
-    private class JSONAsyncTask extends AsyncTask<String, Void, Boolean> {
+    private static class JSONAsyncTask extends AsyncTask<String, Void, Boolean> {
 
         @Override
         protected void onPreExecute() {
@@ -178,7 +183,16 @@ public class MainActivity extends AppCompatActivity {
             new AlertDialog.Builder(MainActivity.this)
                     .setTitle("Hakkında")
                     .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. \n\nUygulama kaynağı GitHub'da bulunabilir: \n https://github.com/berkantkz/KLU_Yemek \n\n - Berkant Korkmaz, berkantkz")
-                    .setPositiveButton("KAPAT",null)
+                    .setPositiveButton("KAPAT", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            counter = counter + 1;
+                            if (counter == 4) {
+                                tinydb.putBoolean("isAdsDisabled",true);
+                                Toast.makeText(MainActivity.this, "Reklâmlar devre dışı bırakıldı.", Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                    })
                     .show();
             startInterstitialAd();
         }
@@ -187,21 +201,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean isNetworkAvailable() {
-        ConnectivityManager connectivityManager
-                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = null;
+        if (connectivityManager != null) {
+            activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        }
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
     public void startInterstitialAd() {
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-2951689275458403/2628252404");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                mInterstitialAd.show();
-            }
-        });
+        if (!tinydb.getBoolean("isAdsDisabled")) {
+            mInterstitialAd = new InterstitialAd(this);
+            mInterstitialAd.setAdUnitId("ca-app-pub-2951689275458403/2628252404");
+            mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            mInterstitialAd.setAdListener(new AdListener() {
+                @Override
+                public void onAdLoaded() {
+                    mInterstitialAd.show();
+                }
+            });
+        } else {
+            Toast.makeText(this, ":)", Toast.LENGTH_SHORT).show();
+        }
     }
 }
