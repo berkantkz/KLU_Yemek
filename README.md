@@ -29,13 +29,14 @@ Her bir sürüm [GitHub](https://github.com/berkantkz/KLU_Yemek)'da *[releases](
 
 - En güncel sürüm: _stable-2.1_
 
-Sürüm		| Sürüm sayfası 			| Doğrudan İndirme Adresi
------ 		| ---   					| ---- 
-Alfa 1 		| [https://goo.gl/gNsYBh](https://goo.gl/gNsYBh) 		| [https://github.com/berkantkz/KLU_Yemek/releases/download/alpha1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/alpha1/app-debug.apk)
-Beta-1.0    | [https://goo.gl/4XLy75](https://goo.gl/4XLy75)   		| [https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.0/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.0/app-debug.apk)
-Beta-1.1	| [https://goo.gl/LSuUEh](https://goo.gl/LSuUEh)    	| [https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk)
-stable-2	| [https://goo.gl/NswiSy](https://goo.gl/NswiSy)    	| [https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2/app-debug.apk)
-stable-2.1	| [https://goo.gl/MKwqP4](https://goo.gl/MKwqP4)    	| [https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2.1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2.1/app-debug.apk)
+Sürüm		| Sürüm sayfası 			| Doğrudan İndirme Adresi	| Google Play
+----- 		| ---   					| ---- 						| ---
+Alfa 1 		| [https://goo.gl/gNsYBh](https://goo.gl/gNsYBh) 		| [https://github.com/berkantkz/KLU_Yemek/releases/download/alpha1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/alpha1/app-debug.apk)			| N/A
+Beta-1.0    | [https://goo.gl/4XLy75](https://goo.gl/4XLy75)   		| [https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.0/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.0/app-debug.apk)		| N/A
+Beta-1.1	| [https://goo.gl/LSuUEh](https://goo.gl/LSuUEh)    	| [https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk)		| N/A
+stable-2	| [https://goo.gl/NswiSy](https://goo.gl/NswiSy)    	| [https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2/app-debug.apk)		| N/A
+stable-2.1	| [https://goo.gl/MKwqP4](https://goo.gl/MKwqP4)		| [https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2.1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2.1/app-debug.apk)	| N/A
+stable-3.0	| [https://goo.gl/JajKP1](https://goo.gl/JajKP1)    	| [https://github.com/berkantkz/KLU_Yemek/releases/download/stable-3.0/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/stable-3.0/app-debug.apk)	| [https://play.google.com/store/apps/details?id=io.github.berkantkz.klu](https://play.google.com/store/apps/details?id=io.github.berkantkz.klu)
 
 
 > _Kaynakta yapılan her türlü güncellemeler/değişiklikler [bu adres](https://github.com/berkantkz/KLU_Yemek/commits/master)ten takip edilebilir._
