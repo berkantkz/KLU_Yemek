@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.tavsify.berkantkz.klu.MainActivity">
+    tools:context="io.github.berkantkz.klu.MainActivity">
 
     <ProgressBar
         android:id="@+id/pb"
