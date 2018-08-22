@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
@@ -72,6 +73,7 @@ public class MainActivity extends Activity {
         }
 
         final GridView listView = findViewById(R.id.lv);
+        listView.setPadding(0,0,0, AdSize.BANNER.getHeightInPixels(this));
 
         adapter = new KLU_Adapter(getApplicationContext(), R.layout.row, list);
         listView.setAdapter(adapter);
