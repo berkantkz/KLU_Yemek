@@ -1,178 +1,130 @@
 [
   {
-    "id": "1698",
-    "title": "PER\u015eEMBE",
-    "aciklama": "SEBZE \u00c7ORBA,\n\u0130ZM\u0130R K\u00d6FTE,\n PEYN\u0130RL\u0130 KUSKUS,\nV\u0130\u015eNEL\u0130 PRENSES TATLISI",
-    "start": "2018-05-31 00:00:00",
-    "end": "2018-05-31 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1697",
-    "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "MERC\u0130MEK \u00c7ORBA,\n\u00c7ITIR TAVUK,\nSOSLU MAKARNA,\nAYRAN",
-    "start": "2018-05-30 00:00:00",
-    "end": "2018-05-30 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1696",
-    "title": "SALI",
-    "aciklama": "PRENSES \u00c7ORBA,\nPATLICAN MUSAKKA,\nBULGUR P\u0130LAVI,\nCACIK",
-    "start": "2018-05-29 00:00:00",
-    "end": "2018-05-29 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1695",
-    "title": "PAZARTES\u0130",
-    "aciklama": "NANEL\u0130 YO\u011eURT \u00c7ORBA,\nETL\u0130 KURU FASULYE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nMEYVE",
-    "start": "2018-05-28 00:00:00",
-    "end": "2018-05-28 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1694",
+    "id": "1774",
     "title": "CUMA",
-    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nTAS KEBABI,\nPEYN\u0130RL\u0130 ER\u0130\u015eTE,\nYO\u011eURT",
-    "start": "2018-05-25 00:00:00",
-    "end": "2018-05-25 00:00:00",
+    "aciklama": "TOYGA \u00c7ORBA,\n\u0130ZM\u0130R K\u00d6FTE,\nPEYN\u0130RL\u0130 MAKARNA,\nSALATA",
+    "start": "2018-08-31 00:00:00",
+    "end": "2018-08-31 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1693",
-    "title": "PER\u015eEMBE",
-    "aciklama": "TAVUKSUYU \u00c7ORBA,\nB\u0130BER DOLMA,\nFIRIN MAKARNA,\nMEVS\u0130M SALATA",
-    "start": "2018-05-24 00:00:00",
-    "end": "2018-05-24 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1692",
+    "id": "1773",
     "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "YE\u015e\u0130L MERC\u0130MEK \u00c7ORBA,\nTAVUK D\u00d6NER   P\u0130R\u0130N\u00c7 P\u0130LAVI,\nYO\u011eURTLU HAVU\u00c7,\nMEYVE",
-    "start": "2018-05-23 00:00:00",
-    "end": "2018-05-23 00:00:00",
+    "aciklama": "MAHLUTA \u00c7ORBA,\nTAS KEBABI,\n\u015eEHR\u0130YEL\u0130 BULGUR P\u0130LAVI,\nKAZAND\u0130B\u0130",
+    "start": "2018-08-29 00:00:00",
+    "end": "2018-08-29 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1691",
+    "id": "1772",
     "title": "SALI",
-    "aciklama": "\u015eAFAK \u00c7ORBA,\nHASANPA\u015eA K\u00d6FTE,\nBULGUR P\u0130LAVI,\nAYRAN",
-    "start": "2018-05-22 00:00:00",
-    "end": "2018-05-22 00:00:00",
+    "aciklama": "TAVUK SUYU \u00c7ORBA,\nYO\u011eURTLU B\u0130BER DOLMA,\nPATATESL\u0130 TEPS\u0130 B\u00d6RE\u011e\u0130,\n\u00dcZ\u00dcM",
+    "start": "2018-08-28 00:00:00",
+    "end": "2018-08-28 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1690",
+    "id": "1771",
     "title": "PAZARTES\u0130",
-    "aciklama": "TOYGA \u00c7ORBA,\nTAVUKLU BEZELYE,\nSOSLU MAKARNA,\nBALLI BALLIM",
-    "start": "2018-05-21 00:00:00",
-    "end": "2018-05-21 00:00:00",
+    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nTAVUK D\u00d6NER VE SALATA,\nP\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
+    "start": "2018-08-27 00:00:00",
+    "end": "2018-08-27 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1689",
+    "id": "1770",
     "title": "CUMA",
-    "aciklama": "TARHANA \u00c7ORBA,\nEK\u015e\u0130L\u0130 K\u00d6FTE,\nPEYN\u0130RL\u0130 TEPS\u0130 B\u00d6RE\u011e\u0130,\nKOMPOSTO",
-    "start": "2018-05-18 00:00:00",
-    "end": "2018-05-18 00:00:00",
+    "aciklama": "DOMATES \u00c7ORBA,\nETL\u0130 KURU FASULYE,\nPEYN\u0130RL\u0130 ER\u0130\u015eTE,\nKE\u015eK\u00dcL",
+    "start": "2018-08-17 00:00:00",
+    "end": "2018-08-17 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1688",
+    "id": "1769",
     "title": "PER\u015eEMBE",
-    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nKABAK GRATEN,\nYO\u011eURTLU MANTI,\nBROWN\u0130",
-    "start": "2018-05-17 00:00:00",
-    "end": "2018-05-17 00:00:00",
+    "aciklama": "MANTAR \u00c7ORBA,\nET SOTE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
+    "start": "2018-08-16 00:00:00",
+    "end": "2018-08-16 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1687",
+    "id": "1768",
     "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "MANTAR \u00c7ORBA,\nTAVUK KAPAMA,\nPATATES SALATASI,\nAYRAN",
-    "start": "2018-05-16 00:00:00",
-    "end": "2018-05-16 00:00:00",
+    "aciklama": "TARHANA \u00c7ORBA,\nEK\u015e\u0130L\u0130 K\u00d6FTE,\nSOSLU MAKARNA,\n\u00c7\u0130LEKL\u0130 PUD\u0130NG",
+    "start": "2018-08-15 00:00:00",
+    "end": "2018-08-15 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1686",
+    "id": "1767",
     "title": "SALI",
-    "aciklama": "YAYLA \u00c7ORBA,\nORMAN KEBAB,I\nSEBZEL\u0130 TAVUK,\nPEYN\u0130RL\u0130 ER\u0130\u015eTE,\nMEYVE",
-    "start": "2018-05-15 00:00:00",
-    "end": "2018-05-15 00:00:00",
+    "aciklama": "YAYLA \u00c7ORBA,\nFIRIN TAVUK VE ELMA D\u0130L\u0130M PATATES,\n\u015eEHR\u0130YEL\u0130 BULGUR P\u0130LAVI,\n\u00c7OBAN SALATA",
+    "start": "2018-08-14 00:00:00",
+    "end": "2018-08-14 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1685",
+    "id": "1766",
     "title": "PAZARTES\u0130",
-    "aciklama": "BROKOL\u0130 \u00c7ORBA,\nKIYMALI YE\u015e\u0130L MERC\u0130MEK,\nNUGGET,\nPRENSES P\u0130LAVI,\nCACIK",
-    "start": "2018-05-14 00:00:00",
-    "end": "2018-05-14 00:00:00",
+    "aciklama": "MAHLUTA \u00c7ORBA,\nPATATES OTURTMA,\nYO\u011eURTLU MANTI,\n\u00dcZ\u00dcM",
+    "start": "2018-08-13 00:00:00",
+    "end": "2018-08-13 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1684",
+    "id": "1765",
     "title": "CUMA",
-    "aciklama": "DOMATES \u00c7ORBA,\nANKARA TAVA,\n\u0130SL\u0130M KEBABI,\nZEYT\u0130NYA\u011eLI PIRASA,\nYO\u011eURT ",
-    "start": "2018-05-11 00:00:00",
-    "end": "2018-05-11 00:00:00",
+    "aciklama": "ARPA \u015eEHR\u0130YE \u00c7ORBA,\nIZGARA K\u00d6FTE VE SALATA,\nMAKARNA,\nKARPUZ",
+    "start": "2018-08-10 00:00:00",
+    "end": "2018-08-10 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1683",
+    "id": "1764",
     "title": "PER\u015eEMBE",
-    "aciklama": "D\u00dc\u011e\u00dcN \u00c7ORBA,\nTAVUKLU ELBASAN TAVA,\nKIYMALI KARNABAHAR,\nKISIR,\nTURUN\u00c7 TATLISI",
-    "start": "2018-05-10 00:00:00",
-    "end": "2018-05-10 00:00:00",
+    "aciklama": "YE\u015e\u0130L MERC\u0130MEK \u00c7ORBA,\nPATLICAN MUSAKKA,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nTR\u0130LE\u00c7E",
+    "start": "2018-08-09 00:00:00",
+    "end": "2018-08-09 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1682",
+    "id": "1763",
     "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "TOYGA \u00c7ORBA,\nTAVUK SOTE,\nTAVUK ARNAVUT C\u0130\u011eER\u0130,\nPEYN\u0130RL\u0130 MAKARNA,\nAYRAN",
-    "start": "2018-05-09 00:00:00",
-    "end": "2018-05-09 00:00:00",
+    "aciklama": "SEBZE \u00c7ORBA,\n\u00c7ITIR TAVUK VE GARN\u0130T\u00dcR,\nG\u00dcL B\u00d6RE\u011e\u0130,\nAYRAN",
+    "start": "2018-08-08 00:00:00",
+    "end": "2018-08-08 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1681",
+    "id": "1762",
     "title": "SALI",
-    "aciklama": "MAHLUTA \u00c7ORBA,\nM\u0130T\u0130T\u0130 K\u00d6FTE,\nFIRIN TAVUK,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nMEVS\u0130M SALATA",
-    "start": "2018-05-08 00:00:00",
-    "end": "2018-05-08 00:00:00",
+    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nSEBZEL\u0130 KEBAP,\nSOSLU MAKARNA,\nSALATA",
+    "start": "2018-08-07 00:00:00",
+    "end": "2018-08-07 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1680",
+    "id": "1761",
     "title": "PAZARTES\u0130",
-    "aciklama": "ARPA \u015eEHR\u0130YE \u00c7ORBA,\nETL\u0130 NOHUT,\n\u015e\u0130N\u0130TZEL,\nBULGUR P\u0130LAVI,\nMEYVE",
-    "start": "2018-05-07 00:00:00",
-    "end": "2018-05-07 00:00:00",
+    "aciklama": "NANEL\u0130 YO\u011eURT \u00c7ORBA,\nETL\u0130 NOHUT,\nBULGUR P\u0130LAVI,\nCACIK",
+    "start": "2018-08-06 00:00:00",
+    "end": "2018-08-06 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1679",
+    "id": "1760",
     "title": "CUMA",
-    "aciklama": "TARHANA \u00c7ORBA,\nP\u00dcREL\u0130 ROSTO K\u00d6FTE,\nTAVUKLU ORMAN KEBABI,\nPEYN\u0130RL\u0130 MAKARNA,\nMEYVE",
-    "start": "2018-05-04 00:00:00",
-    "end": "2018-05-04 00:00:00",
+    "aciklama": "Toyga \u00c7orba,\nKad\u0131nbudu K\u00f6fte ve Salata,\nPatatesli G\u00fcl B\u00f6re\u011fi,\nAyran",
+    "start": "2018-08-03 00:00:00",
+    "end": "2018-08-03 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1678",
+    "id": "1759",
     "title": "PER\u015eEMBE",
-    "aciklama": "YAYLA \u00c7ORBA,\nETL\u0130 T\u00dcRL\u00dc,\nKIYMALI ISPANAK,\nG\u00dcL B\u00d6RE\u011e\u0130,\n\u00c7\u0130KOLATA R\u00dcYASI",
-    "start": "2018-05-03 00:00:00",
-    "end": "2018-05-03 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1677",
-    "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nTAVUK D\u00d6NER,\n\u0130\u00c7L\u0130 K\u00d6FTE,\nP\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
-    "start": "2018-05-02 00:00:00",
-    "end": "2018-05-02 00:00:00",
+    "aciklama": "Mercimek \u00c7orbas\u0131,\nEtli T\u00fcrl\u00fc,\n\u015eehriyeli Bulgur Pilav\u0131,\nCac\u0131k",
+    "start": "2018-08-02 00:00:00",
+    "end": "2018-08-02 00:00:00",
     "allDay": "1"
   }
 ]
