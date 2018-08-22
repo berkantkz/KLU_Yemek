@@ -22,7 +22,6 @@ import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
-import io.github.berkantkz.klu.R;
 
 import io.github.berkantkz.klu.Utils.TinyDB;
 
@@ -72,13 +71,13 @@ public class MainActivity extends Activity {
             noNetwork();
         }
 
-        final GridView listView = findViewById(R.id.lv);
-        listView.setPadding(0,0,0, AdSize.BANNER.getHeightInPixels(this));
+        final GridView gridView = findViewById(R.id.gv);
+        gridView.setPadding(0,0,0, AdSize.BANNER.getHeightInPixels(this));
 
         adapter = new KLU_Adapter(getApplicationContext(), R.layout.row, list);
-        listView.setAdapter(adapter);
+        gridView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
