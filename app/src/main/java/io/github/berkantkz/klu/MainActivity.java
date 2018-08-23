@@ -195,7 +195,7 @@ public class MainActivity extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_about) {
             new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
                     .setTitle("Hakkında")
                     .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. \n\nUygulama kaynağı GitHub'da bulunabilir: \n https://github.com/berkantkz/KLU_Yemek \n\n - Berkant Korkmaz, berkantkz")
