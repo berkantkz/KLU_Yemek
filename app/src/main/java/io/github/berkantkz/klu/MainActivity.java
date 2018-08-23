@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
     private InterstitialAd mInterstitialAd;
     static ProgressBar pb;
     int counter = 0;
-    static String today, start, title, aciklama;
+    static String today, start, title, aciklama = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
