@@ -38,7 +38,7 @@ class KLU_Adapter extends ArrayAdapter<KLU_List>{
         if (v == null) {
             holder = new ViewHolder();
             v = vi.inflate(Resource, null);
-            holder.start = (TextView) v.findViewById(R.id.start);
+            holder.start = v.findViewById(R.id.start);
             v.setTag(holder);
         } else {
             holder = (ViewHolder) v.getTag();

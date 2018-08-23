@@ -145,8 +145,7 @@ public class MainActivity extends Activity {
                         JSONObject object = jarray.getJSONObject(i);
 
                         KLU_List KLUList = new KLU_List();
-
-                        KLUList.setId(object.getString("id"));
+                        
                         KLUList.setTitle(object.getString("title"));
                         KLUList.setAciklama(object.getString("aciklama"));
                         KLUList.setStart(object.getString("start"));
