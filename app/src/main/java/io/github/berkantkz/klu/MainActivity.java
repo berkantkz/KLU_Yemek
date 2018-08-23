@@ -8,6 +8,7 @@ import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
+import android.text.format.Time;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -46,6 +47,7 @@ public class MainActivity extends Activity {
     private InterstitialAd mInterstitialAd;
     static ProgressBar pb;
     int counter = 0;
+    static String today, start, title, aciklama;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,7 +90,6 @@ public class MainActivity extends Activity {
                 startInterstitialAd();
             }
         });
-
     }
 
     public void startLoading() {
@@ -152,6 +153,18 @@ public class MainActivity extends Activity {
 
                         list.add(KLUList);
 
+                        Time rn = new Time(Time.getCurrentTimezone());
+                        rn.setToNow();
+                        int month = rn.month + 1;
+                        int monthday = rn.monthDay;
+                        today = month + "-" + monthday;
+
+                        if (object.getString("start").replace("2018","").replace("-0","").replace(" 00:00:00", "").equals(today)) {
+                            aciklama = object.getString("aciklama");
+                            title = object.getString("title");
+                            start = object.getString("start").replace("00:00:00","").replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + title;
+                        }
+
                     }
                     return true;
                 }
@@ -198,6 +211,17 @@ public class MainActivity extends Activity {
                     })
                     .show();
             startInterstitialAd();
+        } else if (id == R.id.today) {
+            if (!aciklama.equals("")) {
+                new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
+                        .setTitle(start)
+                        .setMessage(aciklama)
+                        .setPositiveButton("KAPAT", null)
+                        .show();
+            } else {
+                Toast.makeText(this, "Bugün için herhangi bir veri mevcut değil.", Toast.LENGTH_SHORT).show();
+            }
+
         }
 
         return super.onOptionsItemSelected(item);
