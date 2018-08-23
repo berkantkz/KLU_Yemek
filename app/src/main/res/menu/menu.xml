@@ -6,7 +6,7 @@
         android:id="@+id/today"
         android:orderInCategory="100"
         android:title="Bugün"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/action_about"
