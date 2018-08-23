@@ -1,7 +1,7 @@
 package io.github.berkantkz.klu;
 
 /**
- * Created by Bilgisayar on 14.10.2017.
+ * Created by berkantkz on 14.10.2017.
  */
 
 public class KLU_List {
