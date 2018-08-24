@@ -27,16 +27,17 @@ Güncel yapı durumu: [![Build Status](https://travis-ci.org/berkantkz/KLU_Yemek
 
 Her bir sürüm [GitHub](https://github.com/berkantkz/KLU_Yemek)'da *[releases](https://github.com/berkantkz/KLU_Yemek/releases)* sekmesi altında yayınlanır. 
 
-- En güncel sürüm: _stable-2.1_
+- En güncel sürüm: _stable-4.0_
 
-Sürüm		| Sürüm sayfası 			| Doğrudan İndirme Adresi	| Google Play
------ 		| ---   					| ---- 						| ---
-Alfa 1 		| [https://goo.gl/gNsYBh](https://goo.gl/gNsYBh) 		| [https://github.com/berkantkz/KLU_Yemek/releases/download/alpha1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/alpha1/app-debug.apk)			| N/A
-Beta-1.0    | [https://goo.gl/4XLy75](https://goo.gl/4XLy75)   		| [https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.0/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.0/app-debug.apk)		| N/A
-Beta-1.1	| [https://goo.gl/LSuUEh](https://goo.gl/LSuUEh)    	| [https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/beta-1.1/app-debug.apk)		| N/A
-stable-2	| [https://goo.gl/NswiSy](https://goo.gl/NswiSy)    	| [https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2/app-debug.apk)		| N/A
-stable-2.1	| [https://goo.gl/MKwqP4](https://goo.gl/MKwqP4)		| [https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2.1/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/stable-2.1/app-debug.apk)	| N/A
-stable-3.0	| [https://goo.gl/JajKP1](https://goo.gl/JajKP1)    	| [https://github.com/berkantkz/KLU_Yemek/releases/download/stable-3.0/app-debug.apk](https://github.com/berkantkz/KLU_Yemek/releases/download/stable-3.0/app-debug.apk)	| [https://play.google.com/store/apps/details?id=io.github.berkantkz.klu](https://play.google.com/store/apps/details?id=io.github.berkantkz.klu)
+Sürüm		| Sürüm sayfası 																| Google Play
+----- 		| ---   																		| ---
+Alfa 1 		| [alpha1](https://github.com/berkantkz/KLU_Yemek/releases/tag/alpha1)			| N/A
+Beta-1.0    | [beta-1.0](https://github.com/berkantkz/KLU_Yemek/releases/tag/beta-1.0)		| N/A
+Beta-1.1	| [beta-1.1](https://github.com/berkantkz/KLU_Yemek/releases/tag/beta-1.1)    	| N/A
+stable-2	| [stable-2](https://github.com/berkantkz/KLU_Yemek/releases/tag/stable-2)    	| N/A
+stable-2.1	| [stable-2.1](https://github.com/berkantkz/KLU_Yemek/releases/tag/stable-2.1)	| N/A
+stable-3.0	| [stable-3.0](https://github.com/berkantkz/KLU_Yemek/releases/tag/stable-3.0) 	| **removed/kaldırıldı**
+stable-4.0	| [stable-4.0](https://github.com/berkantkz/KLU_Yemek/releases/tag/stable-4.0)	| [stable-4.0-Google Play](https://play.google.com/store/apps/details?id=io.github.berkantkz.klu)
 
 
 > _Kaynakta yapılan her türlü güncellemeler/değişiklikler [bu adres](https://github.com/berkantkz/KLU_Yemek/commits/master)ten takip edilebilir._
