@@ -12,6 +12,5 @@
         android:id="@+id/action_about"
         android:orderInCategory="200"
         android:title="Hakkında"
-        android:icon="@drawable/ic_info_outline_white_24dp"
         app:showAsAction="ifRoom" />
 </menu>
