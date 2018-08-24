@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
@@ -48,6 +49,7 @@ public class MainActivity extends Activity {
     static ProgressBar pb;
     int counter = 0;
     static String today, start, title, aciklama = "";
+    static TextView tv_today, today_top;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +70,8 @@ public class MainActivity extends Activity {
         list = new ArrayList<>();
 
         final GridView gridView = findViewById(R.id.gv);
+        tv_today = findViewById(R.id.tv_today);
+        today_top = findViewById(R.id.today_top);
         gridView.setPadding(0,0,0, AdSize.BANNER.getHeightInPixels(this));
 
         adapter = new KLU_Adapter(getApplicationContext(), R.layout.row, list);
@@ -144,6 +148,12 @@ public class MainActivity extends Activity {
         protected void onPostExecute(Boolean result) {
             adapter.notifyDataSetChanged();
             pb.setVisibility(View.GONE);
+            if (!aciklama.equals("")) {
+                today_top.setText("BUGÜN: " + start);
+                tv_today.setText(aciklama);
+            } else {
+                tv_today.setText("Bugün için herhangi bir veri kullanılabilir değil.");
+            }
         }
     }
 
@@ -177,17 +187,6 @@ public class MainActivity extends Activity {
                     })
                     .show();
             startInterstitialAd();
-        } else if (id == R.id.today) {
-            if (!aciklama.equals("")) {
-                new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
-                        .setTitle(start)
-                        .setMessage(aciklama)
-                        .setPositiveButton("KAPAT", null)
-                        .show();
-            } else {
-                Toast.makeText(this, "Bugün için herhangi bir veri mevcut değil.", Toast.LENGTH_SHORT).show();
-            }
-
         }
 
         return super.onOptionsItemSelected(item);

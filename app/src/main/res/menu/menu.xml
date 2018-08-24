@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <item
-        android:id="@+id/today"
-        android:orderInCategory="100"
-        android:title="Bugün"
-        app:showAsAction="always" />
-
     <item
         android:id="@+id/action_about"
-        android:orderInCategory="200"
+        android:orderInCategory="100"
         android:title="Hakkında"
         app:showAsAction="ifRoom" />
 </menu>
