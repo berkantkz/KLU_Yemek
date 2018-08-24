@@ -67,17 +67,14 @@ public class MainActivity extends Activity {
 
         list = new ArrayList<>();
 
-        if(isNetworkAvailable()) {
-            startLoading();
-        } else {
-            noNetwork();
-        }
-
         final GridView gridView = findViewById(R.id.gv);
         gridView.setPadding(0,0,0, AdSize.BANNER.getHeightInPixels(this));
 
         adapter = new KLU_Adapter(getApplicationContext(), R.layout.row, list);
         gridView.setAdapter(adapter);
+
+        startInterstitialAd();
+        new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -90,36 +87,6 @@ public class MainActivity extends Activity {
                 startInterstitialAd();
             }
         });
-    }
-
-    public void startLoading() {
-        if (isNetworkAvailable()) {
-            new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
-            pb.setVisibility(View.VISIBLE);
-            startInterstitialAd();
-        } else {
-            noNetwork();
-        }
-    }
-
-    public void noNetwork() {
-        new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
-                .setTitle("Bağlantı yok")
-                .setMessage("Kullanılabilir bir bağlantı mevcut değil")
-                .setPositiveButton("TEKRAR DENE", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        startLoading();
-                    }
-                })
-                .setNegativeButton("ÇIKIŞ", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                })
-                .show();
-        pb.setVisibility(View.GONE);
     }
 
     private static class JSONAsyncTask extends AsyncTask<String, Void, Boolean> {
@@ -224,15 +191,6 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    private boolean isNetworkAvailable() {
-        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetworkInfo = null;
-        if (connectivityManager != null) {
-            activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
-        }
-        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
     public void startInterstitialAd() {
