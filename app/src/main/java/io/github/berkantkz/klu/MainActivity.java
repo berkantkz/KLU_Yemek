@@ -9,6 +9,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.text.format.Time;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -204,7 +205,7 @@ public class MainActivity extends Activity {
                 }
             });
         } else {
-            Toast.makeText(this, ":)", Toast.LENGTH_SHORT).show();
+            Log.d("KLU_YEMEK"," berkantkz presents!!");
         }
     }
 }
