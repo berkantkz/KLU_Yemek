@@ -2,7 +2,8 @@
  
 # KLÜ Yemek Takvimi Android Uygulaması 
 
-2 aylık listeyi içerimektedir. Sadece görmeyi istediğiniz tarihin üzerine dokunmanız yeterlidir.
+~~2 aylık listeyi içerimektedir. Sadece görmeyi istediğiniz tarihin üzerine dokunmanız yeterlidir.~~
+> İleriye dönük liste pek paylaşılmıyor. Bu sebepten ötürü yalnızca içinde bulunduğumuz aya ikişin liste yer alıyor.
 
 Uygulamanın çalışma mantığı JSON'u ayrıştırıp listelemektir. Kullanılan JSON listesi [bu adreste](https://berkantkz.github.io/KLU_Yemek/list.json) bulunabilir.
 
