@@ -1,5 +1,13 @@
 [
   {
+    "id": "41",
+    "title": "Duyuru",
+    "aciklama": "Bugüne ait menü, uygulamayı son sürüme güncelleyinceye kadar görüntülenemeyecektir.",
+    "start": "",
+    "end": "",
+    "allDay": "1"
+  },
+  {
     "id": "1817",
     "title": "\u00c7AR\u015eAMBA",
     "aciklama": "MERC\u0130MEK \u00c7ORBA,\nTAVUK D\u00d6NER,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
