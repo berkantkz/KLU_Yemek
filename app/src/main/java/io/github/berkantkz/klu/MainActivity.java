@@ -129,11 +129,12 @@ public class MainActivity extends Activity {
                         int month = rn.month + 1;
                         int monthday = rn.monthDay;
                         today = month + "-" + monthday;
+                        start = object.getString("start").replace("2018-","").replace("-0","-").replace(" 00:00:00", "");
 
-                        if (object.getString("start").replace("2018","").replace("-0","").replace(" 00:00:00", "").equals(today)) {
+                        if (start.equals(today)) {
                             aciklama = object.getString("aciklama");
                             title = object.getString("title");
-                            start = object.getString("start").replace("00:00:00","").replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + title;
+                            start = start.replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + title;
                         }
 
                     }
@@ -155,6 +156,7 @@ public class MainActivity extends Activity {
             } else {
                 tv_today.setText("Bugün için herhangi bir veri kullanılabilir değil.");
             }
+            Log.d("KLU_Yemek","Bugün: " + today);
         }
     }
 
