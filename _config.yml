@@ -1,0 +1,11 @@
+# Site settings
+name: 
+title: KLU Yemek Takvimi
+description: "Kırklareli Üniversitesi Yemek Takvimi"
+baseurl: ""
+author: berkantkz
+repository: berkantkz/KLU_Yemek
+
+# Build settings
+markdown: kramdown
+permalinks: pretty

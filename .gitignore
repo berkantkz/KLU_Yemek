@@ -22,3 +22,5 @@ KLU_Yemek.iml
 .idea/
 .gradle/
 app/app.iml
+Gemfile
+Gemfile.lock
