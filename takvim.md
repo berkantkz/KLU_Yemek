@@ -61,6 +61,8 @@ tr:nth-child(2n+1) {
 </div>
 
 <script>
+	$("div h1:first-child").html("<a href='https://github.com/berkantkz/KLU_Yemek/'>KLU Yemek Takvimi</a><a href='https://github.com/berkantkz' style='float: right; font-size: 15pt;'>berkantkz</a>");
+	
 	$.getJSON("https://berkantkz.github.io/KLU_Yemek/list.json",function(item) {
 		var asset = item[0];
 		var content = '';
