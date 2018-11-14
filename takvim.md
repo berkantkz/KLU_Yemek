@@ -51,17 +51,23 @@ tr:nth-child(2n+1) {
 }
 </style>
 
+<div id="today"></div>
 <div id="table_container">
 	<table id="table">
 		<tbody id="tbody">
-		
 		</tbody>
 	</table>
-
 </div>
 
 <script>
 	$("div h1:first-child").html("<a href='https://github.com/berkantkz/KLU_Yemek/'>KLU Yemek Takvimi</a><a href='https://github.com/berkantkz' style='float: right; font-size: 15pt;'>berkantkz</a>");
+	
+	var date = new Date();
+	var month = date.getMonth() + 1;
+	var day = date.getDate();
+	var today = month + "-" + day;
+	var start;
+	var aciklama;
 	
 	$.getJSON("https://berkantkz.github.io/KLU_Yemek/list.json",function(item) {
 		var asset = item[0];
@@ -71,13 +77,17 @@ tr:nth-child(2n+1) {
 		content+='<th>Menu</th>'
 		content+='</tr>'
 		$.each(item, function(key, val) {
-		
 			var date = val.start.replace('00:00:00','') + ' ' + val.title;
 			content+='<tr>'
 			content+='<td>' + date + '</td>'
 			content+='<td>' + val.aciklama + '</td>'
 			content+='</tr>'
+			if (val.start.replace("2018-","").replace(" 00:00:00","") == today) {
+				start = val.start.replace(" 00:00:00","") + " " + val.title;
+				description = val.aciklama;
+			}
 		});
-  document.getElementById("tbody").innerHTML =  content;
-  });
+		document.getElementById("tbody").innerHTML =  content;
+		$('#today').html("<h3>Bugün: " + start + "</h3><h3>" + description + "</h3><br>");
+	});
 </script>
