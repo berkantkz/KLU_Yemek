@@ -82,12 +82,12 @@ tr:nth-child(2n+1) {
 			content+='<td>' + date + '</td>'
 			content+='<td>' + val.aciklama + '</td>'
 			content+='</tr>'
-			if (val.start.replace("2018-","").replace(" 00:00:00","") == today) {
+			if (val.start.replace("2018-","").replace(" 00:00:00","").replace("-0","-") == today.replace("-0","")) {
 				start = val.start.replace(" 00:00:00","") + " " + val.title;
-				description = val.aciklama;
+				aciklama = val.aciklama;
 			}
 		});
 		document.getElementById("tbody").innerHTML =  content;
-		$('#today').html("<h3>Bugün: " + start + "</h3><h3>" + description + "</h3><br>");
+		$('#today').html("<h3>Bugün: " + start + "</h3><h3>" + aciklama + "</h3><br>");
 	});
 </script>
