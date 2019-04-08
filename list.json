@@ -1,170 +1,178 @@
 [
   {
-    "id": "1860",
-    "title": "PAZARTES\u0130",
-    "aciklama": "DOMATES \u00c7ORBA,\n\u015e\u0130N\u0130TZEL,                                 \nPEYN\u0130RL\u0130 MAKARNA,\nAYRAN",
-    "start": "2018-12-31 00:00:00",
-    "end": "2018-12-31 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1859",
-    "title": "CUMA",
-    "aciklama": "SEBZE \u00c7ORBASI,\nKA\u011eIT KEBABI - \u0130\u00c7L\u0130 K\u00d6FTE,                               \n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nCACIK",
-    "start": "2018-12-28 00:00:00",
-    "end": "2018-12-28 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1858",
-    "title": "PER\u015eEMBE",
-    "aciklama": "SAL\u00c7ALI P\u0130R\u0130N\u00c7 \u00c7ORBASI,\nKIYMALI KARNABAHAR - TAVUKLU ELBASAN TAVA,\nPEYN\u0130RL\u0130 MAKARNA,\nKEMALPA\u015eA TATLISI",
-    "start": "2018-12-27 00:00:00",
-    "end": "2018-12-27 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1857",
-    "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "YE\u015e\u0130L MERC\u0130MEK \u00c7ORBA,\nFIRIN K\u00d6FTE - ARNAVUT C\u0130\u011eER\u0130,   \nBULGUR P\u0130LAVI,\nAYRAN",
-    "start": "2018-12-26 00:00:00",
-    "end": "2018-12-26 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1856",
+    "id": "1948",
     "title": "SALI",
-    "aciklama": "TAVUKSUYU  \u00c7ORBA,\nMANTARLI TAVUK SOTE - ETL\u0130 KI\u015e T\u00dcRL\u00dcS\u00dc,\nPEYN\u0130RL\u0130 ER\u0130\u015eTE,\nKOMPOSTO",
-    "start": "2018-12-25 00:00:00",
-    "end": "2018-12-25 00:00:00",
+    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nEK\u015e\u0130L\u0130 K\u00d6FTE,\nTAVUK D\u00d6NER,\nPEYN\u0130RL\u0130 MAKARNA,\n\u015eEKERPARE",
+    "start": "2019-04-30 00:00:00",
+    "end": "2019-04-30 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1855",
+    "id": "1947",
     "title": "PAZARTES\u0130",
-    "aciklama": "DOMATES \u00c7ORBA,\nNUGGET - ETL\u0130 NOHUT,\nGARN\u0130T\u00dcRL\u00dc P\u0130R\u0130N\u00c7 P\u0130LAVI,\nMEYVE",
-    "start": "2018-12-24 00:00:00",
-    "end": "2018-12-24 00:00:00",
+    "aciklama": "MAHLUTA \u00c7ORBA,\nETL\u0130 NOHUT,\n\u015e\u0130N\u0130TZEL,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nYO\u011eURT",
+    "start": "2019-04-29 00:00:00",
+    "end": "2019-04-29 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1854",
+    "id": "1946",
     "title": "CUMA",
-    "aciklama": "MANTAR \u00c7ORBASI,\nFIRIN BALIK  SALATA - TAVUK PANE\nP\u0130YAZ,\nBROWN\u0130",
-    "start": "2018-12-21 00:00:00",
-    "end": "2018-12-21 00:00:00",
+    "aciklama": "MANTAR \u00c7ORBA,\nORMAN KEBABI,\nTAVUK ARNAVUT C\u0130\u011eER\u0130,\nPEYN\u0130RL\u0130 MAKARNA,\nAYRAN",
+    "start": "2019-04-26 00:00:00",
+    "end": "2019-04-26 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1853",
+    "id": "1945",
     "title": "PER\u015eEMBE",
-    "aciklama": "TAVUK SUYU \u00c7ORBA,\nB\u0130BER DOLMA(YO\u011eURT) - KIYMALI BEZELYE,\nB\u00d6REK,\nKOMPOSTO",
-    "start": "2018-12-20 00:00:00",
-    "end": "2018-12-20 00:00:00",
+    "aciklama": "YAYLA \u00c7ORBA,\nISPANAK GRATEN,\nK\u00d6R\u0130 SOSLU TAVUK,\nG\u00dcL B\u00d6RE\u011e\u0130,\nKOMPOSTO",
+    "start": "2019-04-25 00:00:00",
+    "end": "2019-04-25 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1852",
+    "id": "1944",
     "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "MAHLUTA \u00c7ORBA,\nTAVUK KAPAMA,\nZEYT\u0130NYA\u011eLI BARBUNYA P\u0130LAK\u0130,\nMEYVE",
-    "start": "2018-12-19 00:00:00",
-    "end": "2018-12-19 00:00:00",
+    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nTAVUK \u015e\u0130\u015e,\n\u0130ZM\u0130R K\u00d6FTE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
+    "start": "2019-04-24 00:00:00",
+    "end": "2019-04-24 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1851",
+    "id": "1943",
     "title": "SALI",
-    "aciklama": "YAYLA \u00c7ORBA,\nM\u0130T\u0130T\u0130 K\u00d6FTE - SAMANYOLU KEBABI,\nSOSLU MAKARNA,\nSALATA",
-    "start": "2018-12-18 00:00:00",
-    "end": "2018-12-18 00:00:00",
+    "aciklama": "",
+    "start": "2019-04-23 00:00:00",
+    "end": "2019-04-23 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1850",
+    "id": "1942",
     "title": "PAZARTES\u0130",
-    "aciklama": "K\u00d6YL\u00dc \u00c7ORBA,\nETL\u0130 KURU FAS\u00dcLYE - PATLICAN MUSAKKA,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nTUR\u015eU",
-    "start": "2018-12-17 00:00:00",
-    "end": "2018-12-17 00:00:00",
+    "aciklama": "MAHLUTA \u00c7ORBA,\nETL\u0130 KURU FAS\u00dcLYE,\nKADINBUDU K\u00d6FTE (HAZIR),\nBULGUR P\u0130LAVI,\nYO\u011eURT",
+    "start": "2019-04-22 00:00:00",
+    "end": "2019-04-22 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1849",
+    "id": "1941",
     "title": "CUMA",
-    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\n\u0130\u00c7L\u0130 K\u00d6FTE - TAVUK B\u0130FTEK,\nARPA \u015eEHR\u0130YE P\u0130LAVI,\nSALATA",
-    "start": "2018-12-14 00:00:00",
-    "end": "2018-12-14 00:00:00",
+    "aciklama": "SEBZE \u00c7ORBA,\n\u00c7ITIR TAVUK,\nBAH\u00c7IVAN KEBABI,\nARPA \u015eEHR\u0130YE P\u0130LAVI,\nAYRAN",
+    "start": "2019-04-19 00:00:00",
+    "end": "2019-04-19 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1848",
+    "id": "1940",
     "title": "PER\u015eEMBE",
-    "aciklama": "D\u00dc\u011e\u00dcN \u00c7ORBA,\nETL\u0130 T\u00dcRL\u00dc - TAVUK SOTE,\nER\u0130\u015eTE,\nBALLI BALIM TATLISI",
-    "start": "2018-12-13 00:00:00",
-    "end": "2018-12-13 00:00:00",
+    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nKIYMALI BEZELYE,\nTAVUKLU ELBASAN TAVA,\nSOSLU SPAGETT\u0130,\nBALLI BALIM",
+    "start": "2019-04-18 00:00:00",
+    "end": "2019-04-18 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1847",
+    "id": "1939",
     "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "DOMATES \u00c7ORBA,\nFIRIN TAVUK,                                          \nPEYN\u0130RL\u0130 MAKARNA,\nAYRAN",
-    "start": "2018-12-12 00:00:00",
-    "end": "2018-12-12 00:00:00",
+    "aciklama": "MAHLUTA \u00c7ORBA,\nROSTO K\u00d6FTE   P\u00dcRE,\nFIRIN TAVUK,\nPEYN\u0130RL\u0130 ER\u0130\u015eTE,\nAYRAN",
+    "start": "2019-04-17 00:00:00",
+    "end": "2019-04-17 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1846",
+    "id": "1938",
     "title": "SALI",
-    "aciklama": "TARHANA \u00c7ORBA,\nETL\u0130 KURU FAS\u00dcLYE - \u015e\u0130N\u0130TZEL,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nMEYVE",
-    "start": "2018-12-11 00:00:00",
-    "end": "2018-12-11 00:00:00",
+    "aciklama": "YAYLA \u00c7ORBA,\nSEBZEL\u0130 M\u0130SKET K\u00d6FTE,\nTAVUKLU ORMAN KEBABI,\nMUSKA B\u00d6RE\u011e\u0130,\nKOMPOSTO",
+    "start": "2019-04-16 00:00:00",
+    "end": "2019-04-16 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1845",
+    "id": "1937",
     "title": "PAZARTES\u0130",
-    "aciklama": "TAVUKSUYU \u00c7ORBA,\nKIYMALI YE\u015e\u0130L MERC\u0130MEK - PATATES OTURTMA,       \nBULGUR P\u0130LAVI,\nCACIK",
-    "start": "2018-12-10 00:00:00",
-    "end": "2018-12-10 00:00:00",
+    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nPATLICAN MUSAKKA,\nNUGGET,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nYO\u011eURT",
+    "start": "2019-04-15 00:00:00",
+    "end": "2019-04-15 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1844",
+    "id": "1936",
     "title": "CUMA",
-    "aciklama": "DOMATES \u00c7ORBASI,\nBAH\u00c7IVAN KEBABI - \u0130ZM\u0130R K\u00d6FTE,\nYO\u011eURTLU HAVU\u00c7 KIZARTMA,\nKAZAND\u0130B\u0130 TATLISI",
-    "start": "2018-12-07 00:00:00",
-    "end": "2018-12-07 00:00:00",
+    "aciklama": "TOYGA \u00c7ORBA,\nTAVUK B\u0130FTEK,\nET D\u00d6NER,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
+    "start": "2019-04-12 00:00:00",
+    "end": "2019-04-12 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1843",
+    "id": "1935",
     "title": "PER\u015eEMBE",
-    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nTAVUKLU BEZELYE - KIYMALI KARNABAHAR,\nFIRIN MAKARNA,\nELMA KOMPOSTO",
-    "start": "2018-12-06 00:00:00",
-    "end": "2018-12-06 00:00:00",
+    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nGORDON BLUE,\nPATATES OTURTMA,\nPEYN\u0130RL\u0130 MAKARNA,\nREVAN\u0130",
+    "start": "2019-04-11 00:00:00",
+    "end": "2019-04-11 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1842",
+    "id": "1934",
     "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "MAHLUTA \u00c7ORBA,\nK\u00d6R\u0130 SOSLU TAVUK - ROSTO K\u00d6FTE,\nBULGUR P\u0130LAVI,\nAYRAN",
-    "start": "2018-12-05 00:00:00",
-    "end": "2018-12-05 00:00:00",
+    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nTAVUK KAPAMA,\nANKARA TAVA,\nYO\u011eURTLU HAVU\u00c7 KIZARTMA,\nMEYVE",
+    "start": "2019-04-10 00:00:00",
+    "end": "2019-04-10 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1841",
+    "id": "1933",
     "title": "SALI",
-    "aciklama": "TOYGA \u00c7ORBA,\nEK\u015e\u0130L\u0130 K\u00d6FTE  - TAVUKLU ARNAVUT C\u0130\u011eER\u0130,\nPEYN\u0130RL\u0130 ER\u0130\u015eTE,\nMEYVE - CACIK",
-    "start": "2018-12-04 00:00:00",
-    "end": "2018-12-04 00:00:00",
+    "aciklama": "YAYLA \u00c7ORBA,\nKAYSER\u0130 K\u00d6FTE,\nSAMANYOLU KEBABI,\n\u015eEHR\u0130YEL\u0130 BULGUR P\u0130LAVI,\nYO\u011eURT",
+    "start": "2019-04-09 00:00:00",
+    "end": "2019-04-09 00:00:00",
     "allDay": "1"
   },
   {
-    "id": "1840",
+    "id": "1932",
     "title": "PAZARTES\u0130",
-    "aciklama": "TARHANA \u00c7ORBA,\nFIRIN BALIK   -  NUGGET,\nBULGUR P\u0130LAVI,\nMEYVE",
-    "start": "2018-12-03 00:00:00",
-    "end": "2018-12-03 00:00:00",
+    "aciklama": "MAHLUTA \u00c7ORBA,\nETL\u0130 NOHUT,\n\u015e\u0130N\u0130TZEL,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
+    "start": "2019-04-08 00:00:00",
+    "end": "2019-04-08 00:00:00",
+    "allDay": "1"
+  },
+  {
+    "id": "1931",
+    "title": "CUMA",
+    "aciklama": "SEBZE \u00c7ORBASI,\nROSTO K\u00d6FTE   P\u00dcRE,\nP\u0130L\u0130\u00c7 KAVURMA   P\u00dcRE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
+    "start": "2019-04-05 00:00:00",
+    "end": "2019-04-05 00:00:00",
+    "allDay": "1"
+  },
+  {
+    "id": "1930",
+    "title": "PER\u015eEMBE",
+    "aciklama": "TOYGA \u00c7ORBA,\nTAVUKLU BEZELYE,\nKIYMALI KARNABAHAR GRATEN,\nPEYN\u0130RL\u0130 ER\u0130\u015eTE,\n\u015eEKERPARE",
+    "start": "2019-04-04 00:00:00",
+    "end": "2019-04-04 00:00:00",
+    "allDay": "1"
+  },
+  {
+    "id": "1929",
+    "title": "\u00c7AR\u015eAMBA",
+    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nTAVUK D\u00d6NER   SALATA,\nETL\u0130 KURU FAS\u00dcLYE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nYO\u011eURT",
+    "start": "2019-04-03 00:00:00",
+    "end": "2019-04-03 00:00:00",
+    "allDay": "1"
+  },
+  {
+    "id": "1928",
+    "title": "SALI",
+    "aciklama": "YAYLA \u00c7ORBA,\nTERB\u0130YEL\u0130 K\u00d6FTE,\nK\u00d6R\u0130 SOSLU TAVUK,\nPEYN\u0130RL\u0130 MAKARNA,\nMEYVE",
+    "start": "2019-04-02 00:00:00",
+    "end": "2019-04-02 00:00:00",
+    "allDay": "1"
+  },
+  {
+    "id": "1927",
+    "title": "PAZARTES\u0130",
+    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nBAH\u00c7IVAN KEBABI,\nNUGGET,\n\u015eEHR\u0130YEL\u0130 BULGUR P\u0130LAVI,\nCACIK\n",
+    "start": "2019-04-01 00:00:00",
+    "end": "2019-04-01 00:00:00",
     "allDay": "1"
   }
 ]
