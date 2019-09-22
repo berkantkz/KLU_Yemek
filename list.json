@@ -1,178 +1,107 @@
 [
   {
-    "id": "1948",
-    "title": "SALI",
-    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nEK\u015e\u0130L\u0130 K\u00d6FTE,\nTAVUK D\u00d6NER,\nPEYN\u0130RL\u0130 MAKARNA,\n\u015eEKERPARE",
-    "start": "2019-04-30 00:00:00",
-    "end": "2019-04-30 00:00:00",
-    "allDay": "1"
+    "day": "PAZARTESİ",
+    "date": "2019-09-30 ",
+    "content": "MERCİMEK ÇORBA,\nPATLICAN MUSAKKA,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nCACIK"
   },
   {
-    "id": "1947",
-    "title": "PAZARTES\u0130",
-    "aciklama": "MAHLUTA \u00c7ORBA,\nETL\u0130 NOHUT,\n\u015e\u0130N\u0130TZEL,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nYO\u011eURT",
-    "start": "2019-04-29 00:00:00",
-    "end": "2019-04-29 00:00:00",
-    "allDay": "1"
+    "day": "CUMA",
+    "date": "2019-09-27 ",
+    "content": "MAHLUTA ÇORBA,\nORMAN KEBABI,\nGÜL BÖREĞİ,\nKAVUN"
   },
   {
-    "id": "1946",
-    "title": "CUMA",
-    "aciklama": "MANTAR \u00c7ORBA,\nORMAN KEBABI,\nTAVUK ARNAVUT C\u0130\u011eER\u0130,\nPEYN\u0130RL\u0130 MAKARNA,\nAYRAN",
-    "start": "2019-04-26 00:00:00",
-    "end": "2019-04-26 00:00:00",
-    "allDay": "1"
+    "day": "PERŞEMBE",
+    "date": "2019-09-26 ",
+    "content": "TAVUKSUYU ÇORBA,\nETLİ NOHUT,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nYOĞURT"
   },
   {
-    "id": "1945",
-    "title": "PER\u015eEMBE",
-    "aciklama": "YAYLA \u00c7ORBA,\nISPANAK GRATEN,\nK\u00d6R\u0130 SOSLU TAVUK,\nG\u00dcL B\u00d6RE\u011e\u0130,\nKOMPOSTO",
-    "start": "2019-04-25 00:00:00",
-    "end": "2019-04-25 00:00:00",
-    "allDay": "1"
+    "day": "ÇARŞAMBA",
+    "date": "2019-09-25 ",
+    "content": "DOMATES ÇORBA,\nTAVUK KAPAMA,\nHAVUÇ TARATOR,\nREVANİ"
   },
   {
-    "id": "1944",
-    "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nTAVUK \u015e\u0130\u015e,\n\u0130ZM\u0130R K\u00d6FTE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
-    "start": "2019-04-24 00:00:00",
-    "end": "2019-04-24 00:00:00",
-    "allDay": "1"
+    "day": "SALI",
+    "date": "2019-09-24 ",
+    "content": "TOYGA ÇORBA,\nİZMİR KÖFTE,\nBULGUR PİLAVI,\nŞEFTALİ"
   },
   {
-    "id": "1943",
-    "title": "SALI",
-    "aciklama": "",
-    "start": "2019-04-23 00:00:00",
-    "end": "2019-04-23 00:00:00",
-    "allDay": "1"
+    "day": "PAZARTESİ",
+    "date": "2019-09-23 ",
+    "content": "MERCİMEK ÇORBA,\nTAVUK DÖNER,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN"
   },
   {
-    "id": "1942",
-    "title": "PAZARTES\u0130",
-    "aciklama": "MAHLUTA \u00c7ORBA,\nETL\u0130 KURU FAS\u00dcLYE,\nKADINBUDU K\u00d6FTE (HAZIR),\nBULGUR P\u0130LAVI,\nYO\u011eURT",
-    "start": "2019-04-22 00:00:00",
-    "end": "2019-04-22 00:00:00",
-    "allDay": "1"
+    "day": "CUMA",
+    "date": "2019-09-20 ",
+    "content": "DOMATES ÇORBA,\nBAHÇIVAN KEBABI,\nERİŞTE,\nAŞURE"
   },
   {
-    "id": "1941",
-    "title": "CUMA",
-    "aciklama": "SEBZE \u00c7ORBA,\n\u00c7ITIR TAVUK,\nBAH\u00c7IVAN KEBABI,\nARPA \u015eEHR\u0130YE P\u0130LAVI,\nAYRAN",
-    "start": "2019-04-19 00:00:00",
-    "end": "2019-04-19 00:00:00",
-    "allDay": "1"
+    "day": "PERŞEMBE",
+    "date": "2019-09-19 ",
+    "content": "MANTAR ÇORBA,\nTAVUK BİFTEK,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nKOMPOSTO"
   },
   {
-    "id": "1940",
-    "title": "PER\u015eEMBE",
-    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nKIYMALI BEZELYE,\nTAVUKLU ELBASAN TAVA,\nSOSLU SPAGETT\u0130,\nBALLI BALIM",
-    "start": "2019-04-18 00:00:00",
-    "end": "2019-04-18 00:00:00",
-    "allDay": "1"
+    "day": "ÇARŞAMBA",
+    "date": "2019-09-18 ",
+    "content": "MERCİMEK ÇORBA,\nKURU KÖFTE,\nPEYNİRLİ MAKARNA,\nYOĞURT"
   },
   {
-    "id": "1939",
-    "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "MAHLUTA \u00c7ORBA,\nROSTO K\u00d6FTE   P\u00dcRE,\nFIRIN TAVUK,\nPEYN\u0130RL\u0130 ER\u0130\u015eTE,\nAYRAN",
-    "start": "2019-04-17 00:00:00",
-    "end": "2019-04-17 00:00:00",
-    "allDay": "1"
+    "day": "SALI",
+    "date": "2019-09-17 ",
+    "content": "YAYLA ÇORBA,\nFIRIN TAVUK   ELMA DİLİM PATATES,\nŞEHRİYELİ BULGUR PİLAVI,\nCACIK"
   },
   {
-    "id": "1938",
-    "title": "SALI",
-    "aciklama": "YAYLA \u00c7ORBA,\nSEBZEL\u0130 M\u0130SKET K\u00d6FTE,\nTAVUKLU ORMAN KEBABI,\nMUSKA B\u00d6RE\u011e\u0130,\nKOMPOSTO",
-    "start": "2019-04-16 00:00:00",
-    "end": "2019-04-16 00:00:00",
-    "allDay": "1"
+    "day": "PAZARTESİ",
+    "date": "2019-09-16 ",
+    "content": "MAHLUTA ÇORBA,\nETLİ KURU FASÜLYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN"
   },
   {
-    "id": "1937",
-    "title": "PAZARTES\u0130",
-    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nPATLICAN MUSAKKA,\nNUGGET,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nYO\u011eURT",
-    "start": "2019-04-15 00:00:00",
-    "end": "2019-04-15 00:00:00",
-    "allDay": "1"
+    "day": "CUMA",
+    "date": "2019-09-13 ",
+    "content": "YAYLA ÇORBA,\nROSTO KÖFTE,\nMAKARNA,\nÜZÜM"
   },
   {
-    "id": "1936",
-    "title": "CUMA",
-    "aciklama": "TOYGA \u00c7ORBA,\nTAVUK B\u0130FTEK,\nET D\u00d6NER,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
-    "start": "2019-04-12 00:00:00",
-    "end": "2019-04-12 00:00:00",
-    "allDay": "1"
+    "day": "PERŞEMBE",
+    "date": "2019-09-12 ",
+    "content": "MERCİMEK ÇORBA,\nPİLİÇ KAVURMA,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nKOMPOSTO"
   },
   {
-    "id": "1935",
-    "title": "PER\u015eEMBE",
-    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nGORDON BLUE,\nPATATES OTURTMA,\nPEYN\u0130RL\u0130 MAKARNA,\nREVAN\u0130",
-    "start": "2019-04-11 00:00:00",
-    "end": "2019-04-11 00:00:00",
-    "allDay": "1"
+    "day": "ÇARŞAMBA",
+    "date": "2019-09-11 ",
+    "content": "MANTAR ÇORBA,\nTAVUK KAPAMA,\nHAVUÇ TARATOR,\nSÜTLAÇ"
   },
   {
-    "id": "1934",
-    "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nTAVUK KAPAMA,\nANKARA TAVA,\nYO\u011eURTLU HAVU\u00c7 KIZARTMA,\nMEYVE",
-    "start": "2019-04-10 00:00:00",
-    "end": "2019-04-10 00:00:00",
-    "allDay": "1"
+    "day": "SALI",
+    "date": "2019-09-10 ",
+    "content": "EZOGELİN ÇORBA,\nSEBZELİ KEBAP,\nERİŞTE,\nKARPUZ"
   },
   {
-    "id": "1933",
-    "title": "SALI",
-    "aciklama": "YAYLA \u00c7ORBA,\nKAYSER\u0130 K\u00d6FTE,\nSAMANYOLU KEBABI,\n\u015eEHR\u0130YEL\u0130 BULGUR P\u0130LAVI,\nYO\u011eURT",
-    "start": "2019-04-09 00:00:00",
-    "end": "2019-04-09 00:00:00",
-    "allDay": "1"
+    "day": "PAZARTESİ",
+    "date": "2019-09-09 ",
+    "content": "DOMATES ÇORBA,\nTAVUKLU BEZELYE,\nBULGUR PİLAVI,\nCACIK"
   },
   {
-    "id": "1932",
-    "title": "PAZARTES\u0130",
-    "aciklama": "MAHLUTA \u00c7ORBA,\nETL\u0130 NOHUT,\n\u015e\u0130N\u0130TZEL,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
-    "start": "2019-04-08 00:00:00",
-    "end": "2019-04-08 00:00:00",
-    "allDay": "1"
+    "day": "CUMA",
+    "date": "2019-09-06 ",
+    "content": "MAHLUTA ÇORBA,\nBAHÇIVAN KEBABI,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nREVANİ"
   },
   {
-    "id": "1931",
-    "title": "CUMA",
-    "aciklama": "SEBZE \u00c7ORBASI,\nROSTO K\u00d6FTE   P\u00dcRE,\nP\u0130L\u0130\u00c7 KAVURMA   P\u00dcRE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nAYRAN",
-    "start": "2019-04-05 00:00:00",
-    "end": "2019-04-05 00:00:00",
-    "allDay": "1"
+    "day": "PERŞEMBE",
+    "date": "2019-09-05 ",
+    "content": "TAVUKSUYU ÇORBA,\nETLİ NOHUT,\nBULGUR PİLAVI,\nAYRAN"
   },
   {
-    "id": "1930",
-    "title": "PER\u015eEMBE",
-    "aciklama": "TOYGA \u00c7ORBA,\nTAVUKLU BEZELYE,\nKIYMALI KARNABAHAR GRATEN,\nPEYN\u0130RL\u0130 ER\u0130\u015eTE,\n\u015eEKERPARE",
-    "start": "2019-04-04 00:00:00",
-    "end": "2019-04-04 00:00:00",
-    "allDay": "1"
+    "day": "ÇARŞAMBA",
+    "date": "2019-09-04 ",
+    "content": "EZOGELİN ÇORBA,\nİZMİR KÖFTE,\nERİŞTE,\nKARPUZ"
   },
   {
-    "id": "1929",
-    "title": "\u00c7AR\u015eAMBA",
-    "aciklama": "MERC\u0130MEK \u00c7ORBA,\nTAVUK D\u00d6NER   SALATA,\nETL\u0130 KURU FAS\u00dcLYE,\n\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,\nYO\u011eURT",
-    "start": "2019-04-03 00:00:00",
-    "end": "2019-04-03 00:00:00",
-    "allDay": "1"
+    "day": "SALI",
+    "date": "2019-09-03 ",
+    "content": "DOMATES ÇORBA,\nIZGARA TAVUK,\nMAKARNA,\nÜZÜM"
   },
   {
-    "id": "1928",
-    "title": "SALI",
-    "aciklama": "YAYLA \u00c7ORBA,\nTERB\u0130YEL\u0130 K\u00d6FTE,\nK\u00d6R\u0130 SOSLU TAVUK,\nPEYN\u0130RL\u0130 MAKARNA,\nMEYVE",
-    "start": "2019-04-02 00:00:00",
-    "end": "2019-04-02 00:00:00",
-    "allDay": "1"
-  },
-  {
-    "id": "1927",
-    "title": "PAZARTES\u0130",
-    "aciklama": "EZOGEL\u0130N \u00c7ORBA,\nBAH\u00c7IVAN KEBABI,\nNUGGET,\n\u015eEHR\u0130YEL\u0130 BULGUR P\u0130LAVI,\nCACIK\n",
-    "start": "2019-04-01 00:00:00",
-    "end": "2019-04-01 00:00:00",
-    "allDay": "1"
+    "day": "PAZARTESİ",
+    "date": "2019-09-02 ",
+    "content": "MERCİMEK ÇORBA,\nPATLICAN MUSAKKA,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nCACIK"
   }
 ]

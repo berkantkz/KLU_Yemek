@@ -1,0 +1,19 @@
+{
+  "name": "klu-yemek-json-generator",
+  "version": "1.0.0",
+  "description": "Create local json files for KLU Yemek",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Berkant Korkmaz - berkantkz",
+  "license": "ISC",
+  "dependencies": {
+    "curl-request": "^1.1.1",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.1.0"
+  }
+}
