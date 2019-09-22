@@ -20,7 +20,7 @@ jobs:
       run: node index.js
     
     - name: git push
-      run: git add list.json && git commit -am 'update list' && git push -f
+      run: git config --global user.email 'berkantk3@gmail.com' && git config --global user.name 'Berkant Korkmaz' && git add list.json && git commit -am 'update list' && git push -f
       
       env:
         CI: true
