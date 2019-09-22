@@ -1,8 +1,5 @@
 name: Main workflow
-on:
-  schedule:
-  - cron: 0 * * * 1-5
-
+on: push
 jobs:
   run:
     runs-on: ubuntu-18.04
@@ -21,6 +18,9 @@ jobs:
       
     - name: node index.js
       run: node index.js
+    
+    - name: git push
+      run: git add list.json && git commit -am 'update list' && git push -f
       
       env:
         CI: true
