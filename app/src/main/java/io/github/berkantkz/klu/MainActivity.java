@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
     private InterstitialAd mInterstitialAd;
     static ProgressBar pb;
     int counter = 0;
-    static String today, start, title, aciklama = "";
+    static String today, date, day, content = "";
     static TextView tv_today, today_top;
 
     @Override
@@ -127,12 +127,12 @@ public class MainActivity extends Activity {
                         int monthday = rn.monthDay;
                         int year = rn.year;
                         today = year + "-" + month + "-" + monthday;
-                        start = object.getString("date").replace("-0","-").replace(" ", "");
+                        date = object.getString("date").replace("-0","-").replace(" ", "");
 
-                        if (start.equals(today)) {
-                            aciklama = object.getString("content");
-                            title = object.getString("day");
-                            start = start.replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + title;
+                        if (date.equals(today)) {
+                            content = object.getString("content");
+                            day = object.getString("day");
+                            date = date.replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + day;
                         }
 
                     }
@@ -148,9 +148,9 @@ public class MainActivity extends Activity {
         protected void onPostExecute(Boolean result) {
             adapter.notifyDataSetChanged();
             pb.setVisibility(View.GONE);
-            if (!aciklama.equals("")) {
+            if (!content.equals("")) {
                 today_top.setText("BUGÜN: " + today);
-                tv_today.setText(aciklama);
+                tv_today.setText(content);
             } else {
                 tv_today.setText("Bugün için herhangi bir veri kullanılabilir değil.");
             }
