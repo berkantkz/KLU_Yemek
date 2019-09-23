@@ -181,7 +181,7 @@ public class MainActivity extends Activity {
                     .setPositiveButton("KAPAT", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            counter = counter + 1;
+                            counter++;
                             if (counter == 4) {
                                 tinydb.putBoolean("isAdsDisabled",true);
                                 Toast.makeText(MainActivity.this, "Reklâmlar devre dışı bırakıldı.", Toast.LENGTH_SHORT).show();
