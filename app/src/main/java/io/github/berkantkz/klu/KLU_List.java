@@ -5,36 +5,36 @@ package io.github.berkantkz.klu;
  */
 
 public class KLU_List {
-    private String title;
-    private String aciklama;
-    private String start;
+    private String day;
+    private String content;
+    private String date;
 
     KLU_List() {
 
     }
 
-    String getTitle() {
-        return title;
+    String getDay() {
+        return day;
     }
 
-    void setTitle(String title) {
-        this.title = title;
+    void setDay(String day) {
+        this.day = day;
     }
 
-    String getAciklama() {
-        return aciklama;
+    String getContent() {
+        return content;
     }
 
-    void setAciklama(String aciklama) {
-        this.aciklama = aciklama;
+    void setContent(String content) {
+        this.content = content;
     }
 
-    String getStart() {
-        return start;
+    String getDate() {
+        return date;
     }
 
-    void setStart(String start) {
-        this.start = start;
+    void setDate(String date) {
+        this.date = date;
     }
 
 }

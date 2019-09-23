@@ -1,10 +1,7 @@
 package io.github.berkantkz.klu;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.DialogInterface;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
@@ -85,8 +82,8 @@ public class MainActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
-                        .setTitle(list.get(position).getStart().replace("00:00:00","").replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + list.get(position).getTitle())
-                        .setMessage(list.get(position).getAciklama().replace(",",""))
+                        .setTitle(list.get(position).getDate().replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık  ").toUpperCase() + list.get(position).getDay())
+                        .setMessage(list.get(position).getContent().replace(",",""))
                         .setPositiveButton("KAPAT", null)
                         .show();
                 startInterstitialAd();
@@ -118,9 +115,9 @@ public class MainActivity extends Activity {
 
                         KLU_List KLUList = new KLU_List();
                         
-                        KLUList.setTitle(object.getString("title"));
-                        KLUList.setAciklama(object.getString("aciklama"));
-                        KLUList.setStart(object.getString("start"));
+                        KLUList.setDay(object.getString("day"));
+                        KLUList.setContent(object.getString("content"));
+                        KLUList.setDate(object.getString("date"));
 
                         list.add(KLUList);
 
@@ -129,11 +126,11 @@ public class MainActivity extends Activity {
                         int month = rn.month + 1;
                         int monthday = rn.monthDay;
                         today = month + "-" + monthday;
-                        start = object.getString("start").replace("2018-","").replace("-0","-").replace(" 00:00:00", "");
+                        start = object.getString("date").replace("-0","-");
 
                         if (start.equals(today)) {
-                            aciklama = object.getString("aciklama");
-                            title = object.getString("title");
+                            aciklama = object.getString("content");
+                            title = object.getString("day");
                             start = start.replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + title;
                         }
 

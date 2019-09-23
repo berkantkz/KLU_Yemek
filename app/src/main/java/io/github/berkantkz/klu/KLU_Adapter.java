@@ -8,8 +8,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import io.github.berkantkz.klu.R;
-
 import java.util.ArrayList;
 
 /**
@@ -44,7 +42,7 @@ class KLU_Adapter extends ArrayAdapter<KLU_List>{
             holder = (ViewHolder) v.getTag();
         }
 
-        title = klist.get(position).getStart().replace("2018","").replace("00:00:00","").replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık ").toUpperCase() + " " + klist.get(position).getTitle();
+        title = klist.get(position).getDate().replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık  ").toUpperCase() + klist.get(position).getDay();
         holder.start.setText(title);
 
         return v;
