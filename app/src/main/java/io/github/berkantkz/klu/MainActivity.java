@@ -2,8 +2,11 @@ package io.github.berkantkz.klu;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -79,7 +82,21 @@ public class MainActivity extends Activity {
         gridView.setAdapter(adapter);
 
         startInterstitialAd();
-        new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
+        if (isNetworkAvailable()) {
+            new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
+        } else {
+            new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
+                    .setTitle("Bağlantı yok")
+                    .setMessage("Kullanılabilir bir bağlantı yok. Bir ağa bağlandıktan sonra uygulamayı yeniden çalıştırın.")
+                    .setNegativeButton("ÇIKIŞ", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            finish();
+                        }
+                    })
+                    .show();
+        }
+
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -92,6 +109,18 @@ public class MainActivity extends Activity {
                 startInterstitialAd();
             }
         });
+    }
+
+
+
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = null;
+        if (connectivityManager != null) {
+            activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        }
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
     private static class JSONAsyncTask extends AsyncTask<String, Void, Boolean> {
