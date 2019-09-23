@@ -1,12 +1,12 @@
     apply plugin: 'com.android.application'
 
     android {
-        compileSdkVersion 29
-        buildToolsVersion "29.0.2"
+        compileSdkVersion 27
+        buildToolsVersion "27.0.3"
         defaultConfig {
             applicationId 'io.github.berkantkz.klu'
             minSdkVersion 15
-            targetSdkVersion 29
+            targetSdkVersion 27
             versionCode 6
             versionName "stable-4.1"
             testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
