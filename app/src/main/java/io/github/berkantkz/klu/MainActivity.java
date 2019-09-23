@@ -1,5 +1,6 @@
 package io.github.berkantkz.klu;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.os.AsyncTask;
@@ -114,7 +115,7 @@ public class MainActivity extends Activity {
                         JSONObject object = jarray.getJSONObject(i);
 
                         KLU_List KLUList = new KLU_List();
-                        
+
                         KLUList.setDay(object.getString("day"));
                         KLUList.setContent(object.getString("content"));
                         KLUList.setDate(object.getString("date"));
@@ -145,6 +146,8 @@ public class MainActivity extends Activity {
             return false;
 
         }
+
+        @SuppressLint("SetTextI18n")
         protected void onPostExecute(Boolean result) {
             adapter.notifyDataSetChanged();
             pb.setVisibility(View.GONE);
