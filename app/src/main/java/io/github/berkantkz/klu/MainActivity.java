@@ -3,6 +3,8 @@ package io.github.berkantkz.klu;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
@@ -177,7 +179,7 @@ public class MainActivity extends Activity {
         if (id == R.id.action_about) {
             new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
                     .setTitle("Hakkında")
-                    .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. \n\nUygulama kaynağı GitHub'da bulunabilir: \n https://github.com/berkantkz/KLU_Yemek \n\n - Berkant Korkmaz, berkantkz")
+                    .setMessage("Kullanılan liste Kırklareli Üniversitesi resmi web sayfasından alınmıştır. \n\nUygulama kaynağı GitHub'da bulunabilir. \n\n - Berkant Korkmaz, berkantkz")
                     .setPositiveButton("KAPAT", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
@@ -186,6 +188,14 @@ public class MainActivity extends Activity {
                                 tinydb.putBoolean("isAdsDisabled",true);
                                 Toast.makeText(MainActivity.this, "Reklâmlar devre dışı bırakıldı.", Toast.LENGTH_SHORT).show();
                             }
+                        }
+                    })
+                    .setNeutralButton("Kaynağa git", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            Uri uri = Uri.parse("https://github.com/berkantkz/KLU_Yemek");
+                            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                            startActivity(intent);
                         }
                     })
                     .show();

@@ -1,5 +1,5 @@
 ---
-title: Kırklareli Üniversitesi Yemek Takvimi
+day: Kırklareli Üniversitesi Yemek Takvimi
 permalink: takvim/
 ---
 
@@ -66,8 +66,8 @@ tr:nth-child(2n+1) {
 	var month = date.getMonth() + 1;
 	var day = date.getDate();
 	var today = month + "-" + day;
-	var start;
-	var aciklama;
+	var date;
+	var content;
 	
 	$.getJSON("https://berkantkz.github.io/KLU_Yemek/list.json",function(item) {
 		var asset = item[0];
@@ -77,17 +77,17 @@ tr:nth-child(2n+1) {
 		content+='<th>Menu</th>'
 		content+='</tr>'
 		$.each(item, function(key, val) {
-			var date = val.start.replace('00:00:00','') + ' ' + val.title;
+			var date = val.date.replace('00:00:00','') + ' ' + val.day;
 			content+='<tr>'
 			content+='<td>' + date + '</td>'
-			content+='<td>' + val.aciklama + '</td>'
+			content+='<td>' + val.content + '</td>'
 			content+='</tr>'
-			if (val.start.replace("2018-","").replace(" 00:00:00","").replace("-0","-") == today.replace("-0","")) {
-				start = val.start.replace(" 00:00:00","") + " " + val.title;
-				aciklama = val.aciklama;
+			if (val.date.replace("2018-","").replace(" 00:00:00","").replace("-0","-") == today.replace("-0","")) {
+				date = val.date.replace(" 00:00:00","") + " " + val.day;
+				content = val.content;
 			}
 		});
 		document.getElementById("tbody").innerHTML =  content;
-		$('#today').html("<h3>Bugün: " + start + "</h3><h3>" + aciklama + "</h3><br>");
+		$('#today').html("<h3>Bugün: " + date + "</h3><h3>" + content + "</h3><br>");
 	});
 </script>
