@@ -125,8 +125,9 @@ public class MainActivity extends Activity {
                         rn.setToNow();
                         int month = rn.month + 1;
                         int monthday = rn.monthDay;
-                        today = month + "-" + monthday;
-                        start = object.getString("date").replace("-0","-");
+                        int year = rn.year;
+                        today = year + "-" + month + "-" + monthday;
+                        start = object.getString("date").replace("-0","-").replace(" ", "");
 
                         if (start.equals(today)) {
                             aciklama = object.getString("content");
@@ -148,12 +149,11 @@ public class MainActivity extends Activity {
             adapter.notifyDataSetChanged();
             pb.setVisibility(View.GONE);
             if (!aciklama.equals("")) {
-                today_top.setText("BUGÜN: " + start);
+                today_top.setText("BUGÜN: " + today);
                 tv_today.setText(aciklama);
             } else {
                 tv_today.setText("Bugün için herhangi bir veri kullanılabilir değil.");
             }
-            Log.d("KLU_Yemek","Bugün: " + today);
         }
     }
 
