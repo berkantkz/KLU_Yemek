@@ -1,6 +1,7 @@
 ---
 day: Kırklareli Üniversitesi Yemek Takvimi
 permalink: takvim/
+published: false
 ---
 
 <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
