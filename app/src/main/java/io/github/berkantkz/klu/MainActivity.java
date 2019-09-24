@@ -92,6 +92,7 @@ public class MainActivity extends Activity {
                         .setTitle(list.get(position).getDate().replace("-01-"," Ocak ").replace("-02-", " Şubat ").replace("-03-"," Mart ").replace("-04-", " Nisan ").replace("-05-", " Mayıs ").replace("-06-"," Haziran ").replace("-07-", " Temmuz ").replace("-08-", " Ağustos ").replace("-09-", " Eylül ").replace("-10-" ," Ekim ").replace("-11-", " Kasım ").replace("-12-", " Aralık  ").toUpperCase() + list.get(position).getDay())
                         .setMessage(list.get(position).getContent().replace(",",""))
                         .setPositiveButton("KAPAT", null)
+                        .setCancelable(false)
                         .show();
                 startInterstitialAd();
             }
