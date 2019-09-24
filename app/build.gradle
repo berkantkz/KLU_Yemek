@@ -7,8 +7,8 @@
             applicationId 'io.github.berkantkz.klu'
             minSdkVersion 15
             targetSdkVersion 29
-            versionCode 6
-            versionName "stable-4.1"
+            versionCode 7
+            versionName "stable-5"
             testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         }
         buildTypes {
