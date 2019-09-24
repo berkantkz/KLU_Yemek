@@ -208,6 +208,7 @@ public class MainActivity extends Activity {
                             startActivity(intent);
                         }
                     })
+                    .setCancelable(false)
                     .show();
             startInterstitialAd();
         }
