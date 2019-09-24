@@ -2,15 +2,11 @@ package io.github.berkantkz.klu;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import androidx.appcompat.app.AlertDialog;
 import android.text.format.Time;
 import android.util.Log;
 import android.view.Menu;
@@ -22,14 +18,14 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
+
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
-
-import io.github.berkantkz.klu.Utils.TinyDB;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -44,15 +40,19 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import io.github.berkantkz.klu.Utils.TinyDB;
+
 public class MainActivity extends Activity {
 
     TinyDB tinydb;
     static ArrayList<KLU_List> list;
     static KLU_Adapter adapter;
     private InterstitialAd mInterstitialAd;
+    @SuppressLint("StaticFieldLeak")
     static ProgressBar pb;
     int counter = 0;
     static String today, date, day, content = "";
+    @SuppressLint("StaticFieldLeak")
     static TextView tv_today, today_top;
 
     @Override
@@ -82,21 +82,8 @@ public class MainActivity extends Activity {
         gridView.setAdapter(adapter);
 
         startInterstitialAd();
-        if (isNetworkAvailable()) {
-            new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
-        } else {
-            new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
-                    .setTitle("Bağlantı yok")
-                    .setMessage("Kullanılabilir bir bağlantı yok. Bir ağa bağlandıktan sonra uygulamayı yeniden çalıştırın.")
-                    .setNegativeButton("ÇIKIŞ", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            finish();
-                        }
-                    })
-                    .show();
-        }
 
+        new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -109,18 +96,6 @@ public class MainActivity extends Activity {
                 startInterstitialAd();
             }
         });
-    }
-
-
-
-
-    private boolean isNetworkAvailable() {
-        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetworkInfo = null;
-        if (connectivityManager != null) {
-            activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
-        }
-        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
     private static class JSONAsyncTask extends AsyncTask<String, Void, Boolean> {
