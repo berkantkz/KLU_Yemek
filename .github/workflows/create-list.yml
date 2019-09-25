@@ -4,6 +4,8 @@ on:
     push:
         branches:
             - master
+        paths:
+            - '!list.json'
     schedule: 
         - cron: '0 */6 * * *'
 
