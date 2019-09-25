@@ -27,7 +27,7 @@ jobs:
     - name: node index.js
       run: cd listgen && node index.js
     - name: deploy
-      run: ./deploy.sh
+      run: chmod +x deploy.sh && ./deploy.sh
       env:
         CI: true
         ACCESS_TOKEN: ${{ secrets.token }}
