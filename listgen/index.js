@@ -53,7 +53,7 @@ var website = "";
             getDay[counter].start.includes(currentMonth)
         );
 
-        fs.writeFile("list.json", JSON.stringify(out, null, 2), function(error) {
+        fs.writeFile("../list.json", JSON.stringify(out, null, 2), function(error) {
             (error ? console.log(error) : console.log("*** \nlist.json was written.\n***"));
         });
     })
