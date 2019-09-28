@@ -4,6 +4,6 @@
     <item
         android:id="@+id/action_about"
         android:orderInCategory="100"
-        android:title="Hakkında"
+        android:title="@string/about"
         app:showAsAction="ifRoom" />
 </menu>
