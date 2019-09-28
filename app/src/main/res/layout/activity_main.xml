@@ -33,7 +33,7 @@
             android:id="@+id/today_top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bugün:"
+            android:text="@string/today"
             android:textSize="8pt"
             android:paddingTop="15dp"
             android:paddingStart="15dp"
@@ -47,7 +47,7 @@
             android:layout_below="@id/today_top"
             android:padding="15dp"
             android:textSize="6pt"
-            android:text="------"
+            android:text="@string/dashes"
             android:textColor="#000"/>
 
         <View
