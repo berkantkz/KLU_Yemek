@@ -4,7 +4,7 @@ git remote set-url origin https://berkantkz:$token@github.com/berkantkz/KLU_Yeme
 if git status --porcelain | grep -q 'list.json'; then 
 	git add list.json
 	git commit -am 'update list'
-	echo berkantkz | echo $token | git push origin HEAD:master	
+	echo berkantkz | echo $token | git push -f origin HEAD:master	
 else
 	echo 'No changes detected'
 fi
