@@ -1,0 +1,30 @@
+name: Push triggerer
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-18.04
+
+    strategy:
+      matrix:
+        node-version: [10.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: npm i
+      run: cd listgen && npm i
+    - name: node index.js
+      run: cd listgen && node index.js
+    - name: deploy
+      run: cd listgen && chmod +x deploy.sh && export token=${{ secrets.token }} && ./deploy.sh
+      env:
+        CI: true
+        ACCESS_TOKEN: ${{ secrets.token }}
+        BASE_BRANCH: master
+        BRANCH: master
