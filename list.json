@@ -1,5 +1,90 @@
 [
   {
+    "day": "PERŞEMBE",
+    "date": "2019-10-31 ",
+    "content": "YAYLA ÇORBA,\nKIŞ TÜRLÜSÜ,\nSİGARA BÖREĞİ,\nKEŞKÜL"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2019-10-30 ",
+    "content": "MERCİMEK ÇORBA,\nTAVUKLU SAMANYOLU KEBABI,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN\n"
+  },
+  {
+    "day": "CUMA",
+    "date": "2019-10-25 ",
+    "content": "SEBZE ÇORBASI,\nÇITIR TAVUK,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nCACIK"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2019-10-24 ",
+    "content": "TAVUKSUYU ÇORBA,\nKIYMALI KARNIBAHAR,\nMUSKA BÖREĞİ,\nİRMİK HELVASI"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2019-10-23 ",
+    "content": "MANTAR ÇORBA,\nFIRIN TAVUK,\nPİRİNÇ PİLAVI,\nAYRAN"
+  },
+  {
+    "day": "SALI",
+    "date": "2019-10-22 ",
+    "content": "DOMATES ÇORBA,\nKADINBUDU KÖFTE (HAZIR),\nPEYNİRLİ ERİŞTE,\nMEYVE"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2019-10-21 ",
+    "content": "TOYGA ÇORBA,\nTAVUKLU BEZELYE,\nBULGUR PİLAVI,\nYOĞURT"
+  },
+  {
+    "day": "CUMA",
+    "date": "2019-10-18 ",
+    "content": "DOMATES ÇORBA,\nİSLİM KEBABI,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nYOĞURT"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2019-10-17 ",
+    "content": "TAVUKSUYU ÇORBA,\nBİBER DOLMA YOĞURT,\nGÜL BÖREĞİ,\nTULUMBA TATLISI"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2019-10-16 ",
+    "content": "SEBZE ÇORBA,\nTAVUK DÖNER,\nPİRİNÇ PİLAVI,\nAYRAN"
+  },
+  {
+    "day": "SALI",
+    "date": "2019-10-15 ",
+    "content": "MERCİMEK ÇORBA,\nTAVUK ARNAVUT CİĞERİ,\nMAKARNA,\nMEYVE"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2019-10-14 ",
+    "content": "MANTAR ÇORBA,\nETLİ NOHUT,\nBULGUR PİLAVI,\nCACIK"
+  },
+  {
+    "day": "CUMA",
+    "date": "2019-10-11 ",
+    "content": "YAYLA ÇORBA,\nANKARA TAVA,\nHAVUÇ TARATOR,\nKOMPOSTO"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2019-10-10 ",
+    "content": "MAHLUTA ÇORBA,\nET DÖNER,\nPEYNİRLİ MAKARNA,\nBAKLAVA"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2019-10-09 ",
+    "content": "EZOGELİN ÇORBA,\nTAVUK ŞİŞ,\nBULGUR PİLAVI,\nYOĞURT"
+  },
+  {
+    "day": "SALI",
+    "date": "2019-10-08 ",
+    "content": "DOMATES ÇORBASI,\nEKŞİLİ KÖFTE,\nPEYNİRLİ KUSKUS,\nMEYVE"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2019-10-07 ",
+    "content": "TAVUKSUYU ÇORBA,\nPATATES OTURTMA,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN"
+  },
+  {
     "day": "CUMA",
     "date": "2019-10-04 ",
     "content": "YAYLA ÇORBASI,\nMANTARLI TAVUK SOTE,\nGÜL BÖREĞİ,\nKAKAOLU PUDİNG"
