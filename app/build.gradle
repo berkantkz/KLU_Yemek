@@ -10,10 +10,12 @@
             versionCode 7
             versionName "stable-5"
             testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+            resConfigs "tr"
         }
         buildTypes {
             release {
-                minifyEnabled false
+                minifyEnabled true
+                shrinkResources true
                 proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             }
         }
