@@ -98,6 +98,7 @@ public class MainActivity extends Activity {
                             finish();
                         }
                     })
+                    .setCancelable(false)
                     .show();
         }
 
