@@ -1,6 +1,18 @@
     apply plugin: 'com.android.application'
 
+    def keystorePropertiesFile = rootProject.file("keystore.properties");
+    def keystoreProperties = new Properties()
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
     android {
+        signingConfigs {
+            berkantkz {
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+            }
+        }
         compileSdkVersion 29
         buildToolsVersion "29.0.2"
         defaultConfig {
@@ -17,6 +29,8 @@
                 minifyEnabled true
                 shrinkResources true
                 proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                debuggable false
+                signingConfig signingConfigs.berkantkz
             }
         }
 

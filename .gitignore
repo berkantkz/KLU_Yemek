@@ -25,3 +25,5 @@ app/app.iml
 Gemfile
 Gemfile.lock
 node_modules
+keystore.properties
+berkantkz-apk-key.jks
