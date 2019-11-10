@@ -19,8 +19,8 @@
             applicationId 'io.github.berkantkz.klu'
             minSdkVersion 15
             targetSdkVersion 29
-            versionCode 7
-            versionName "stable-5"
+            versionCode 8
+            versionName "stable-6"
             resConfigs "tr"
         }
         buildTypes {
