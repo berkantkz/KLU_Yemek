@@ -1,6 +1,31 @@
 [
   {
     "day": "CUMA",
+    "date": "2019-11-15 ",
+    "content": "SEBZE ÇORBA,\nBAHÇIVAN KEBABI,\nBULGUR PİLAVI,\nSÜTLAÇ"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2019-11-14 ",
+    "content": "MAHLUTA ÇORBA,\nBEŞAMEL SOSLU KIYMALI KANRABAHAR,\nBÖREK,\nKOMPOSTO"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2019-11-13 ",
+    "content": "EZOGELİN ÇORBA,\nTAVUK ŞİŞ,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN"
+  },
+  {
+    "day": "SALI",
+    "date": "2019-11-12 ",
+    "content": "MANTAR ÇORBA,\nROSTO KÖFTE,\nPEYNİRLİ MAKARNA,\nYOĞURT"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2019-11-11 ",
+    "content": "Mercimek Çorba,\nEtli Kuru Fasulye,\nŞehriyeli Pirinç Pilavı,\nTurşu"
+  },
+  {
+    "day": "CUMA",
     "date": "2019-11-08 ",
     "content": "MANTAR ÇORBA,\nBAHÇIVAN KEBABI,\nBULGUR PİLAVI,\nTULUMBA TATLISI"
   },
