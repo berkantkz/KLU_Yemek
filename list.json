@@ -1,6 +1,56 @@
 [
   {
     "day": "CUMA",
+    "date": "2019-11-29 ",
+    "content": "MAHLUTA ÇORBA,\nBAHÇIVAN KEBABI,\nBÖREK,\nAYRAN"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2019-11-28 ",
+    "content": "TAVUK SUYU ÇORBASI,\nEKŞİLİ KÖFTE,\nERİŞTE,\nKOMPOSTO"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2019-11-27 ",
+    "content": "MERCİMEK ÇORBA,\nFIRIN TAVUK,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN"
+  },
+  {
+    "day": "SALI",
+    "date": "2019-11-26 ",
+    "content": "MANTAR ÇORBA,\nTAVUK DÖNER,\nBULGUR PİLAVI,\nMEYVE"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2019-11-25 ",
+    "content": "DOMATES ÇORBA,\nETLİ KURU FASÜLYE,\nPİRİNÇ PİLAVI,\nCACIK"
+  },
+  {
+    "day": "CUMA",
+    "date": "2019-11-22 ",
+    "content": "EZOGELİN ÇORBA,\nROSTO KÖFTE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nREVANİ"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2019-11-21 ",
+    "content": "SEBZE ÇORBA,\nTAVUK DÖNER,\nBULGUR PİLAVI,\nAYRAN"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2019-11-20 ",
+    "content": "MERCİMEK ÇORBA,\nFIRIN TAVUK,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nYOĞURT"
+  },
+  {
+    "day": "SALI",
+    "date": "2019-11-19 ",
+    "content": "DOMATES ÇORBA,\nEKŞİLİ KÖFTE,\nMAKARNA,\nMEYVE"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2019-11-18 ",
+    "content": "MAHLUTA ÇORBA,\nETLİ NOHUT,\nBULGUR PİLAVI,\nCACIK"
+  },
+  {
+    "day": "CUMA",
     "date": "2019-11-15 ",
     "content": "SEBZE ÇORBA,\nBAHÇIVAN KEBABI,\nBULGUR PİLAVI,\nSÜTLAÇ"
   },
