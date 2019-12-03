@@ -1,8 +1,68 @@
 [
   {
+    "day": "SALI",
+    "date": "2019-12-31 ",
+    "content": "EZOGELİN ÇORBA,\nTAVUK ŞİŞ,\nŞEHRİYELİ BULGUR PİLAVI,\nAYRAN\n"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2019-12-30 ",
+    "content": "MERCİMEK ÇORBA,\nETLİ KURU FASÜLYE,\nBULGUR PİLAVI,\nYOĞURT"
+  },
+  {
+    "day": "CUMA",
+    "date": "2019-12-27 ",
+    "content": "DOMATES ÇORBA,\nBAHÇIVAN KEBABI,\nBÖREK,\nTATLI"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2019-12-26 ",
+    "content": "MAHLUTA ÇORBA,\nPATLICAN MUSAKKA,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nYOĞURT\n"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2019-12-25 ",
+    "content": "MANTAR ÇORBA,\nTAVUK ŞİŞ,\nBULGUR PİLAVI,\nAYRAN"
+  },
+  {
+    "day": "SALI",
+    "date": "2019-12-24 ",
+    "content": "EZOGELİN ÇORBA,\nEKŞİLİ KÖFTE,\nPEYNİRLİ ERİŞTE,\nMEYVE"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2019-12-23 ",
+    "content": "MERCİMEK ÇORBA,\nETLİ KURU FASÜLYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nTURŞU\n"
+  },
+  {
+    "day": "CUMA",
+    "date": "2019-12-20 ",
+    "content": "DOMATES ÇORBA,\nORMAN KEBABI,\nBÖREK,\nAYRAN"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2019-12-19 ",
+    "content": "MAHLUTA ÇORBA,\nTAVUK DÖNER,\nBULGUR PİLAVI,\nBALLI BALIM"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2019-12-18 ",
+    "content": "MANTAR ÇORBA,\nFIRIN TAVUK,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN\n"
+  },
+  {
+    "day": "SALI",
+    "date": "2019-12-17 ",
+    "content": "EZOGELİN ÇORBA,\nROSTO KÖFTE,\nPEYNİRLİ ERİŞTE,\nMEYVE"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2019-12-16 ",
+    "content": "MERCİMEK ÇORBA,\nETLİ NOHUT,\nBULGUR PİLAVI,\nYOĞURT"
+  },
+  {
     "day": "CUMA",
     "date": "2019-12-13 ",
-    "content": ""
+    "content": "DOMATES ÇORBA,\nBAKÇIVAN KEBABI,\nBÖREK,\nAYRAN"
   },
   {
     "day": "PERŞEMBE",
