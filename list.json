@@ -1,5 +1,100 @@
 [
   {
+    "day": "CUMA",
+    "date": "2020-02-28 ",
+    "content": "YAYLA ÇORBA,\nÇİFTLİK KEBABI,\nGÜL BÖREĞİ,\nPORTAKAL"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2020-02-27 ",
+    "content": "MAHLUTA ÇORBA,\nPATLICAN MUSAKKA,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nCACIK\n"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2020-02-26 ",
+    "content": "EZOGELİN ÇORBA,\nFIRIN TAVUK,\nERİŞTE,\nAYRAN"
+  },
+  {
+    "day": "SALI",
+    "date": "2020-02-25 ",
+    "content": "MERCİMEK ÇORBA,\nTAVUK ŞİŞ,\nBULGUR PİLAVI,\nAYRAN"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2020-02-24 ",
+    "content": "DOMATES ÇORBA,\nETLİ KURU FASÜLYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nYOĞURT\n"
+  },
+  {
+    "day": "CUMA",
+    "date": "2020-02-21 ",
+    "content": "MERCİMEK ÇORBA,\nBAHÇIVAN KEBABI,\nBULGUR PİLAVI,\nYOĞURT"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2020-02-20 ",
+    "content": "EZOGELİN ÇORBA,\nKIYMALI KARNABAHAR GRATEN,\nGÜL BÖREĞİ,\nKOMPOSTO"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2020-02-19 ",
+    "content": "MAHLUTA ÇORBA,\nTAVUK KAVURMA,\nGARNİTÜRLÜ PİLAV,\nBAKLAVA"
+  },
+  {
+    "day": "SALI",
+    "date": "2020-02-18 ",
+    "content": "MANTAR ÇORBA,\nROSTO KÖFTE,\nMAKARNA,\nMANDALİNA"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2020-02-17 ",
+    "content": "MERCİMEK ÇORBA,\nTAVUKLU BEZELYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN\n"
+  },
+  {
+    "day": "CUMA",
+    "date": "2020-02-14 ",
+    "content": "EZOGELİN ÇORBA,\nANKARA  TAVA,\nYOĞURTLU KARNABAHAR KIZARTMA,\nMANDALİNA"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2020-02-13 ",
+    "content": "MAHLUTA ÇORBA,\nKIYMALI TAZE FASÜLYE,\nBÖREK,\nTULUMBA TATLISI"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2020-02-12 ",
+    "content": "DOMATES ÇORBA,\nTAVUK BİFTEK,\nPEYNİRLİ MAKARNA,\nAYRAN"
+  },
+  {
+    "day": "SALI",
+    "date": "2020-02-11 ",
+    "content": "MANTAR ÇORBA,\nTAVUK ŞİŞ,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nYOĞURT\n"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2020-02-10 ",
+    "content": "MERCİMEK ÇORBA,\nETLİ NOHUT,\nBULGUR PİLAVI,\nCACIK"
+  },
+  {
+    "day": "CUMA",
+    "date": "2020-02-07 ",
+    "content": "YAYLA ÇORBA,\nORMAN KEBABI,\nGÜL BÖREĞİ,\nAYRAN"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2020-02-06 ",
+    "content": "MAHLUTA ÇORBA,\nPATLICAN MUSAKKA,\nPİRİNÇ PİLAVI,\nCACIK"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2020-02-05 ",
+    "content": "MANTAR ÇORBA,\nFIRIN TAVUK,\nYOĞURTLU KARNABAHAR KIZARTMA,\nPORTAKAL"
+  },
+  {
+    "day": "SALI",
+    "date": "2020-02-04 ",
+    "content": "MERCİMEK ÇORBA,\nROSTO KÖFTE,\nMAKARNA,\nYOĞURT"
+  },
+  {
     "day": "PAZARTESİ",
     "date": "2020-02-03 ",
     "content": "DOMATES ÇORBA,\nETLİ KURU FASÜLYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nTURŞU"
