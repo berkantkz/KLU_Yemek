@@ -1,35 +1,5 @@
 [
   {
-    "day": "SALI",
-    "date": "2020-03-31 ",
-    "content": "YAYLA ÇORBA,\nROSTO KÖFTE,\nTAVUK SOTE,\nMAKARNA,\nMEYVE"
-  },
-  {
-    "day": "PAZARTESİ",
-    "date": "2020-03-30 ",
-    "content": "MERCİMEK ÇORBA,\nKADINBUDU KÖFTE,\nETLİ NOHUT,\nERİŞTE,\nAYRAN"
-  },
-  {
-    "day": "CUMA",
-    "date": "2020-03-27 ",
-    "content": "YAYLA ÇORBA,\nÇİFTLİK KEBABI,\nTAVUK PANE,\nGÜL BÖREĞİ,\nMEYVE"
-  },
-  {
-    "day": "PERŞEMBE",
-    "date": "2020-03-26 ",
-    "content": "MERCİMEK ÇORBA,\nPATLICAN MUSAKKA,\nTAVUKLU ARNAVUT CİĞERİ,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nCACIK"
-  },
-  {
-    "day": "ÇARŞAMBA",
-    "date": "2020-03-25 ",
-    "content": "EZOGELİN ÇORBA,\nFIRIN TAVUK,\nERİŞTE,\nTULUMBA TATLISI"
-  },
-  {
-    "day": "SALI",
-    "date": "2020-03-24 ",
-    "content": "MERCİMEK ÇORBA,\nTAVUK DÖNER,\nBULGUR PİLAVI,\nAYRAN"
-  },
-  {
     "day": "PAZARTESİ",
     "date": "2020-03-23 ",
     "content": "DOMATES ÇORBA,\nETLİ KURU FASÜLYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nTURŞU"
