@@ -27,7 +27,7 @@ var website = "";
     curl.setHeaders([
         'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'
     ])
-    .get('http://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu')
+    .get('https://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu')
     .then(({
         statusCode,
         body,
