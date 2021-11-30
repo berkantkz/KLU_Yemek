@@ -87,7 +87,7 @@ public class MainActivity extends Activity {
         startInterstitialAd();
 
         if (isNetworkAvailable()) {
-            new JSONAsyncTask().execute("https://berkantkz.github.io/KLU_Yemek/list.json");
+            new JSONAsyncTask().execute("https://berkantkz.me/KLU_Yemek/list.json");
         } else {
             new AlertDialog.Builder(MainActivity.this, R.style.DialogTheme)
                     .setTitle("Bağlantı yok")
