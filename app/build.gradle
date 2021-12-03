@@ -13,12 +13,12 @@
                 keyPassword keystoreProperties['keyPassword']
             }
         }
-        compileSdkVersion 29
-        buildToolsVersion "29.0.2"
+        compileSdkVersion 31
+        buildToolsVersion "31.0.0"
         defaultConfig {
             applicationId 'io.github.berkantkz.klu'
             minSdkVersion 15
-            targetSdkVersion 29
+            targetSdkVersion 31
             versionCode 8
             versionName "stable-6"
             resConfigs "tr"
