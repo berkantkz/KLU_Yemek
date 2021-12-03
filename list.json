@@ -1,112 +1,22 @@
 [
   {
-    "day": "SALI",
-    "date": "2021-11-30 ",
-    "content": "ŞEHRİYE ÇORBA,\nNUGGET-SALATA,\nMAKARNA,\nTATLI"
-  },
-  {
     "day": "PAZARTESİ",
-    "date": "2021-11-29 ",
-    "content": "YOĞURT ÇORBA,\nETLİ KURU FASÜLYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nTURŞU"
+    "date": "2021-12-06 ",
+    "content": "TAVUKSUYU ÇORBA,\nETLİ NOHUT,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nTATLI"
   },
   {
     "day": "CUMA",
-    "date": "2021-11-26 ",
-    "content": "TARHANA ÇORBA,\nTAS KEBABI,\nERİŞTE,\nAYRAN"
+    "date": "2021-12-03 ",
+    "content": "SEBZE ÇORBA,\nORMAN KEBABI,\nMANTI,\nTULUMBA TATLISI"
   },
   {
     "day": "PERŞEMBE",
-    "date": "2021-11-25 ",
-    "content": "YAYLA ÇORBA,\nKIYMALI KARNABAHAR,\nBULGUR PİLAVI,\nMEYVE"
+    "date": "2021-12-02 ",
+    "content": "MANTAR ÇORBA,\nPATLICAN MUSAKKA,\nŞEHİRYELİ PİRİNÇ PİLAVI,\nCACIK"
   },
   {
     "day": "ÇARŞAMBA",
-    "date": "2021-11-24 ",
-    "content": "ŞEHRİYE ÇORBA,\nKADINBUDU KÖFTE-PÜRE,\nHAVUÇ TARATOR,\nTULUMBA TATLISI"
-  },
-  {
-    "day": "SALI",
-    "date": "2021-11-23 ",
-    "content": "MERCİMEK ÇORBA,\nTAVUK KAVURMA,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nYOĞURT"
-  },
-  {
-    "day": "PAZARTESİ",
-    "date": "2021-11-22 ",
-    "content": "EZOGELİN ÇORBA,\nŞİNİTZEL-SALATA,\nMAKARNA,\nAYRAN"
-  },
-  {
-    "day": "CUMA",
-    "date": "2021-11-19 ",
-    "content": "MERCİMEK ÇORBA,\nÇOBAN KAVURMA,\nPİRİNÇ PİLAVI,\nAYRAN"
-  },
-  {
-    "day": "PERŞEMBE",
-    "date": "2021-11-18 ",
-    "content": "ŞEHRİYE ÇORBASI,\nPATLICAN MUSAKKA,\nBULGUR PİLAVI,\nCACIK"
-  },
-  {
-    "day": "ÇARŞAMBA",
-    "date": "2021-11-17 ",
-    "content": "MERCİMEK ÇORBA,\nTAVUK KAVURMA,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN"
-  },
-  {
-    "day": "SALI",
-    "date": "2021-11-16 ",
-    "content": "YAYLA ÇORBA,\nPÜRELİ ROSTO KÖFTE,\nMAKARNA,\nMEYVE"
-  },
-  {
-    "day": "PAZARTESİ",
-    "date": "2021-11-15 ",
-    "content": "DÜĞÜN ÇORBA,\nKIYMALI BEZELYE,\nSPAGETTİ,\nYOĞURT"
-  },
-  {
-    "day": "CUMA",
-    "date": "2021-11-12 ",
-    "content": "ŞEHRİYE ÇORBA,\nSEBZELİ KEBAP,\nBÖREK,\nAYRAN"
-  },
-  {
-    "day": "PERŞEMBE",
-    "date": "2021-11-11 ",
-    "content": "YAYLA ÇORBA,\nŞİNİTZEL-SALATA,\nBULGUR PİLAVI,\nCACIK\n"
-  },
-  {
-    "day": "ÇARŞAMBA",
-    "date": "2021-11-10 ",
-    "content": "EZOGELİN ÇORBA,\nSALÇALI KÖFTE,\nMAKARNA,\nMEYVE"
-  },
-  {
-    "day": "SALI",
-    "date": "2021-11-09 ",
-    "content": "DOMATES ÇORBASI,\nTAVUK DÖNER-SALATA,\nARPA ŞEHRİYE PİLAVI,\nAYRAN"
-  },
-  {
-    "day": "PAZARTESİ",
-    "date": "2021-11-08 ",
-    "content": "MERCİMEK ÇORBA,\nETLİ KURU FASÜLYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nCACIK"
-  },
-  {
-    "day": "CUMA",
-    "date": "2021-11-05 ",
-    "content": "YAYLA ÇORBA,\nÇİFTLİK KEBABI,\nMAKARNA,\nMEYVE SUYU-AYRAN"
-  },
-  {
-    "day": "PERŞEMBE",
-    "date": "2021-11-04 ",
-    "content": "MERCİMEK ÇORBA,\nTAVUK DÖNER-SALATA,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN\n"
-  },
-  {
-    "day": "ÇARŞAMBA",
-    "date": "2021-11-03 ",
-    "content": "TAVUKSUYU ÇORBA,\nKADINBUDU KÖFTE-PÜRE,\nHAVUÇ TARATOR,\nMEYVE"
-  },
-  {
-    "day": "SALI",
-    "date": "2021-11-02 ",
-    "content": "EZOGELİN ÇORBA,\nTAVUK ARNAVUT CİĞER,\nMAKARNA,\nTATLI"
-  },
-  {
-    "day": "PAZARTESİ",
-    "date": "2021-11-01 ",
-    "content": "MERCİMEK ÇORBA,\nETLİ NOHUT,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nCACIK"
+    "date": "2021-12-01 ",
+    "content": "MERCİMEK ÇORBA,\nPÜRELİ ROSTO KÖFTE,\nMAKARNA,\nAYRAN"
   }
 ]
