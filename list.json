@@ -1,6 +1,31 @@
 [
   {
     "day": "CUMA",
+    "date": "2022-01-21 ",
+    "content": "MERCİMEK ÇORBA,\nTAVUK ARNAVUT CİĞER,\nPİRİNÇ PİLAVI,\nKABAK TATLISI\n"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2022-01-20 ",
+    "content": "TARHANA ÇORBA,\nKARNIYARIK,\nBULGUR PİLAVI,\nCACIK"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2022-01-19 ",
+    "content": "MERCİMEK ÇORBA,\nUSKUMRU FİLETO-HAVUÇLU TURPLU SALATA,\nFIRIN MAKARNA,\nTAHİN HELVASI\n"
+  },
+  {
+    "day": "SALI",
+    "date": "2022-01-18 ",
+    "content": "DOMATES ÇORBA,\nET DÖNER-ELMA DİLİM PATATES,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nHAYRABOLU TATLISI\n\n"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2022-01-17 ",
+    "content": "DÜĞÜN ÇORBA,\nFIRIN TAVUK PİRZOLA-PATATES,\nMAKARNA,\nAYRAN\n"
+  },
+  {
+    "day": "CUMA",
     "date": "2022-01-14 ",
     "content": "ŞEHRİYE ÇORBA,\nETLİ KIŞ TÜRLÜSÜ,\nFIRIN MAKARNA,\nTATLI"
   },
