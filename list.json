@@ -1,6 +1,31 @@
 [
   {
     "day": "CUMA",
+    "date": "2022-03-18 ",
+    "content": "DÜĞÜN ÇORBA,\nSEBZELİ KEBAP,\nMAKARNA,\nŞEKERPARE\n\n\n\n"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2022-03-17 ",
+    "content": "EZOGELİN ÇORBA,\nROSTO KÖFTE-GARNİTÜR,\nŞEHRİYE PİLAVI,\nCACIK\n\n\n\n"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2022-03-16 ",
+    "content": "ŞEHRİYE ÇORBA,\nTAVUK DÖNER-SALATA,\nERİŞTE,\nAYRAN\n\n\n\n"
+  },
+  {
+    "day": "SALI",
+    "date": "2022-03-15 ",
+    "content": "YAYLA ÇORBA,\nPATATES MUSAKKA,\nBULGUR PİLAVI,\nYOĞURT\n\n\n\n"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2022-03-14 ",
+    "content": "MERCİMEK ÇORBA,\nETLİ KURU FASULYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nTURŞU\n\n\n\n"
+  },
+  {
+    "day": "CUMA",
     "date": "2022-03-11 ",
     "content": "MERCİMEK ÇORBA,\nKIYMALI KARNABAHAR,\nGARNİTÜRLÜ PİLAV,\nMEYVE\n\n\n\n"
   },
