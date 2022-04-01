@@ -1,6 +1,81 @@
 [
   {
     "day": "CUMA",
+    "date": "2022-04-29 ",
+    "content": "YAYLA ÇORBA,\nET DÖNER-SALATA,\nSPAGETTİ,\nMEYVE\n\n\n\n"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2022-04-28 ",
+    "content": "MERCİMEK ÇORBA,\nTAVUK KAVURMA,\nERİŞTE,\nKEMALPAŞA\n\n\n\n"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2022-04-27 ",
+    "content": "EZOGELİN ÇORBA,\nİZMİR KÖFTE,\nARPA ŞEHRİYE PİLAVI,\nCACIK\n\n\n\n"
+  },
+  {
+    "day": "SALI",
+    "date": "2022-04-26 ",
+    "content": "ŞEHRİYE ÇORBA,\nŞİNİTZEL-SALATA,\nBÖREK,\nKOMPOSTO\n\n\n\n"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2022-04-25 ",
+    "content": "DÜĞÜN ÇORBA,\nETLİ NOHUT,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN\n\n\n\n"
+  },
+  {
+    "day": "CUMA",
+    "date": "2022-04-22 ",
+    "content": "TARHANA ÇORBA,\nPATATES OTURTMA,\nMAKARNA,\nREVANİ\n\n\n\n"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2022-04-21 ",
+    "content": "MERCİMEK ÇORBA,\nORMAN KEBABI,\nARPA ŞEHRİYE PİLAVI,\nCACIK\n\n\n\n"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2022-04-20 ",
+    "content": "EZOGELİN ÇORBA,\nTAVUK KAVURMA,\nPEYNİRLİ KUSKUS,\nAYRAN\n\n\n\n"
+  },
+  {
+    "day": "SALI",
+    "date": "2022-04-19 ",
+    "content": "DÜĞÜN ÇORBA,\nKURU KÖFTE-ELMA DİLİM PATATES,\nERİŞTE,\nSÜTLAÇ\n\n\n\n\n"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2022-04-18 ",
+    "content": "ŞEHRİYE ÇORBA,\nETLİ KURU FASULYE,\nGARNİTÜRLÜ PİRİNÇ PİLAVI,\nYOĞURT\n\n\n\n"
+  },
+  {
+    "day": "CUMA",
+    "date": "2022-04-15 ",
+    "content": "TARHANA ÇORBA,\nÇITIR TAVUK-PATATES KIZARTMASI,\nPEYNİRLİ ERİŞTE,\nPUDİNG\n\n\n\n"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2022-04-14 ",
+    "content": "MERCİMEK ÇORBA,\nPATLICAN MUSAKKA,\nARPA ŞEHRİYE PİLAVI,\nCACIK\n\n\n\n"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2022-04-13 ",
+    "content": "SEBZE ÇORBA,\nROSTO KÖFTE,\nİÇ PİLAV,\nYOĞURT\n\n\n\n"
+  },
+  {
+    "day": "SALI",
+    "date": "2022-04-12 ",
+    "content": "EZOGELİN ÇORBA,\nGORDON BLUE-ELMA DİLİM PATATES,\nMAKARNA,\nMEYVE\n\n\n\n"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2022-04-11 ",
+    "content": "YOĞURT ÇORBA,\nETLİ NOHUT,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nŞEH. PİRİNÇ PİLAVI\n\n\n\n"
+  },
+  {
+    "day": "CUMA",
     "date": "2022-04-08 ",
     "content": "ŞEHRİYE ÇORBA,\nKARNIYARIK,\nBULGUR PİLAVI,\nCACIK\n\n\n\n"
   },
