@@ -1,6 +1,81 @@
 [
   {
     "day": "CUMA",
+    "date": "2022-09-30 ",
+    "content": "YAYLA ÇORBA,\nORMAN KEBABI,\nSPAGETTİ,\nCACIK\n\n\n\n"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2022-09-29 ",
+    "content": "DOMATES ÇORBA,\nİZMİR KÖFTE,\nARPA ŞEHRİYE PİLAVI,\nAYRAN\n\n\n\n"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2022-09-28 ",
+    "content": "TARHANA ÇORBA,\nETLİ NOHUT,\nPİRİNÇ PİLAVI,\nKOMPOSTO\n\n\n\n"
+  },
+  {
+    "day": "SALI",
+    "date": "2022-09-27 ",
+    "content": "YOĞURT ÇORBA,\nTAVUK DÖNER-ELMA DİLİM PATATES,\nFIRIN MAKARNA,\nSÜTLAÇ\n\n\n\n"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2022-09-26 ",
+    "content": "MERCİMEK ÇORBA,\nKIYMALI TAZE FASULYE,\nPEYNİRLİ ERİŞTE,\nMEYVE\n\n\n\n"
+  },
+  {
+    "day": "CUMA",
+    "date": "2022-09-23 ",
+    "content": "DÜĞÜN ÇORBA,\nPATLICAN MUSAKKA,\nİÇ PİLAV,\nAYRAN\n\n\n\n"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2022-09-22 ",
+    "content": "EZOGELİN ÇORBA,\nİZMİR KÖFTE,\nERİŞTE,\nKARPUZ\n\n\n\n"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2022-09-21 ",
+    "content": "TARHANA ÇORBA,\nTAS KEBABI,\nNOHUTLU PİRİNÇ PİLAVI,\nKOMPOSTO\n\n\n\n\n"
+  },
+  {
+    "day": "SALI",
+    "date": "2022-09-20 ",
+    "content": "MERCİMEK ÇORBA,\nKIYMALI BEZELYE,\nMAKARNA,\nŞEKERPARE\n\n\n\n"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2022-09-19 ",
+    "content": "ŞEHRİYE ÇORBA,\nETLİ KURU FASULYE,\nPİRİNÇ PİLAV,\nYOĞURT\n\n\n\n"
+  },
+  {
+    "day": "CUMA",
+    "date": "2022-09-16 ",
+    "content": "EZOGELİN ÇORBA,\nFIRIN TAVUK-ELMA DİLİM PATATES,\nKABAK MÜCVER,\nAYRAN\n\n\n\n"
+  },
+  {
+    "day": "PERŞEMBE",
+    "date": "2022-09-15 ",
+    "content": "ŞEHRİYE ÇORBA,\nBİBER DOLMA,\nHAVUÇ TARATOR,\nKADAYIF\n\n\n\n"
+  },
+  {
+    "day": "ÇARŞAMBA",
+    "date": "2022-09-14 ",
+    "content": "YOĞURT ÇORBA,\nEKŞİLİ KÖFTE,\nBULGUR PİLAVI,\nKARPUZ\n\n\n\n"
+  },
+  {
+    "day": "SALI",
+    "date": "2022-09-13 ",
+    "content": "DOMATES ÇORBA,\nKÖRİ SOSLU TAVUK,\nKUSKUS,\nYOĞURT\n\n\n\n"
+  },
+  {
+    "day": "PAZARTESİ",
+    "date": "2022-09-12 ",
+    "content": "DÜĞÜN ÇORBA,\nETLİ BAMYA,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nPUDİNG\n\n\n\n"
+  },
+  {
+    "day": "CUMA",
     "date": "2022-09-09 ",
     "content": "MERCİMEK ÇORBA,\nKARNIYARIK,\nPEYNİRLİ ERİŞTE,\nİRMİK HELVASI\n\n\n\n"
   },
