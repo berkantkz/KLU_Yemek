@@ -27,7 +27,7 @@
   {
     "day": "Pazar",
     "date": "2022-10-16 ",
-    "content": "Haftasonu yemek hizmeti,\n     verilmemektedir."
+    "content": "Haftasonu yemek hizmeti,\r\n    verilmemektedir."
   },
   {
     "day": "Cumartesi",
@@ -77,7 +77,7 @@
   {
     "day": "PERŞEMBE",
     "date": "2022-10-20 ",
-    "content": "ŞEHRİYE ÇORBA,\nKIYMALI BEZELYE,\nPEYNİRLİ MAKARNA,\nKOMPOSTO\n\n\n\n\n"
+    "content": "ŞEHRİYE ÇORBA,\nKIYMALI BEZELYE,\nBÖREK,\nKOMPOSTO\n\n\n\n\n"
   },
   {
     "day": "ÇARŞAMBA",
