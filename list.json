@@ -1,73 +1,8 @@
 [
   {
-    "day": "ÇARŞAMBA",
-    "date": "2022-11-30 ",
-    "content": "EZOGELİN ÇORBA,\nKIYMALI ISPANAK,\nPEYNİRLİ ERİŞTE,\nSÜTLÜ TATLI\n\n\n\n"
-  },
-  {
-    "day": "SALI",
-    "date": "2022-11-29 ",
-    "content": "TAVUK SUYU ÇORBA,\nİZMİR KÖFTE,\nBULGUR PİLAVI,\nAYRAN\n\n\n\n"
-  },
-  {
-    "day": "PAZARTESİ",
-    "date": "2022-11-28 ",
-    "content": "YOĞURT ÇORBA,\nDOMATESLİ BİBERLİ KURU FASULYE,\nPİRİNÇ PİLAVI,\nŞERBETLİ TATLI\n\n\n\n"
-  },
-  {
-    "day": "CUMA",
-    "date": "2022-11-25 ",
-    "content": "TARHANA ÇORBA,\nORMAN KEBABI,\nBÖREK,\nYOĞURT\n\n\n\n"
-  },
-  {
-    "day": "PERŞEMBE",
-    "date": "2022-11-24 ",
-    "content": "TAVUK SUYU ÇORBA,\nBAKLA YEMEĞİ,\nNOHUTLU PİRİNÇ PİLAVI,\nŞERBETLİ TATLI\n\n\n\n"
-  },
-  {
-    "day": "ÇARŞAMBA",
-    "date": "2022-11-23 ",
-    "content": "MERCİMEK ÇORA,\nTAVUK KAVURMA,\nARPA ŞEHRİYE PİLAVI,\nMEYVE\n\n\n\n"
-  },
-  {
-    "day": "SALI",
-    "date": "2022-11-22 ",
-    "content": "EZOGELİN ÇORBA,\nŞİNİTZEL-SALATA,\nGARNİTÜRLÜ PİRİNÇ PİLAVI,\nAYRAN\n\n\n\n"
-  },
-  {
-    "day": "PAZARTESİ",
-    "date": "2022-11-21 ",
-    "content": "DOMATES ÇORBA,\nKIYMALI YEŞİL MERCİMEK,\nFIRIN MAKARNA,\nSÜTLÜ TATLI\n\n\n\n"
-  },
-  {
-    "day": "CUMA",
-    "date": "2022-11-18 ",
-    "content": "YAYLA ÇORBA,\nFIRIN TAVUK-ELMA DİLİM PATATES,\nFIRIN MAKARNA,\nMEVSİM SALATA\n\n\n\n"
-  },
-  {
-    "day": "PERŞEMBE",
-    "date": "2022-11-17 ",
-    "content": "SEBZE ÇORBA,\nPATATES OTURTMA,\nPEYNİRLİ KUSKUS,\nŞERBETLİ TATLI\n\n\n\n"
-  },
-  {
-    "day": "ÇARŞAMBA",
-    "date": "2022-11-16 ",
-    "content": "MERCİMEK ÇORBA,\nTAVUK SOTE,\nŞEHRİYELİ BULGUR PİLAVI,\nYOĞURT\n\n\n\n"
-  },
-  {
-    "day": "SALI",
-    "date": "2022-11-15 ",
-    "content": "TARHANA ÇORBA,\nKURU KÖFTE-PATATES KIZARTMASI,\nMAKARNA,\nSÜTLÜ TATLI\n\n\n\n"
-  },
-  {
-    "day": "PAZARTESİ",
-    "date": "2022-11-14 ",
-    "content": "DÜĞÜN ÇORBA,\nETLİ NOHUT,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nAYRAN\n\n\n\n"
-  },
-  {
     "day": "CUMA",
     "date": "2022-11-11 ",
-    "content": "ŞEHRİYE ÇORBA,\nTAS KEBABI,\nERİŞTE,\nKOMPOSTO\n\n\n\n"
+    "content": "ŞEHRİYE ÇORBA,\nORMAN KEBABI,\nERİŞTE,\nKOMPOSTO\n\n\n\n"
   },
   {
     "day": "PERŞEMBE",
@@ -82,17 +17,17 @@
   {
     "day": "SALI",
     "date": "2022-11-08 ",
-    "content": "MERCİMEK ÇORBA,\nTAVUK DÖNER-SALATA,\nMAKARNA,\nAYRAN\n\n\n\n"
+    "content": "MERCİMEK ÇORBA,\nKAPUSKA,\nMAKARNA,\nAYRAN\n\n\n\n"
   },
   {
     "day": "PAZARTESİ",
     "date": "2022-11-07 ",
-    "content": "DOMATES ÇORBA,\nETLİ KURU FASULYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nYOĞURT\n\n\n\n"
+    "content": "DOMATES ÇORBA,\nETLİ KURU FASULYE,\nŞEHRİYELİ PİRİNÇ PİLAVI,\nTURŞU\n\n\n\n"
   },
   {
     "day": "CUMA",
     "date": "2022-11-04 ",
-    "content": "YAYLA ÇORBA,\nÇITIR TAVUK-ELMA DİLİM PATATES,\nBULGUR PİLAVI,\nCACIK\n\n\n\n"
+    "content": "YAYLA ÇORBA,\nTAS KEBABI,\nBULGUR PİLAVI,\nCACIK\n\n\n\n"
   },
   {
     "day": "PERŞEMBE",
@@ -107,6 +42,6 @@
   {
     "day": "SALI",
     "date": "2022-11-01 ",
-    "content": "MERCİMEK ÇORBA,\nŞİNİTZEL-SALATA,\nKUSKUS,\nAYRAN\n\n\n\n"
+    "content": "MERCİMEK ÇORBA,\nTAVUKLU BEZELYE,\nKUSKUS,\nAYRAN\n\n\n\n"
   }
 ]
