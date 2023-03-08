@@ -1,0 +1,37 @@
+name: Create List in Python
+
+on: 
+    push:
+        branches:
+            - master
+        paths:
+            - '!list.json'
+    schedule: 
+        - cron: '0 */1 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: install python packages
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: execute py script
+      run: python api.py
+    - name: deploy
+      run: cd listgen && chmod +x deploy.sh && export token=${{ secrets.token }} && ./deploy.sh
+      env:
+        CI: true
+        ACCESS_TOKEN: ${{ secrets.token }}
+        BASE_BRANCH: master
+        BRANCH: master
+       
