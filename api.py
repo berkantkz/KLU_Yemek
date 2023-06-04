@@ -1,8 +1,22 @@
 import json
 from pyquery import PyQuery as pq
 
-webpage = pq(url = "https://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu")
+url = "https://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu"
+#webpage = pq(url = url)
+webpage = ""
 
+import urllib3
+from urllib3.util.ssl_ import create_urllib3_context
+
+ctx = create_urllib3_context()
+ctx.load_default_certs()
+ctx.options |= 0x4  # ssl.OP_LEGACY_SERVER_CONNECT
+
+with urllib3.PoolManager(ssl_context=ctx) as http:
+    webpage = http.request("GET", url)
+    print(webpage.status)
+
+data = py(webpage)
 jsonIn = webpage.find("textarea").html()
 jsonIn = jsonIn.replace('\\n', '')
 
