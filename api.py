@@ -7,12 +7,14 @@ webpage = ""
 
 import urllib3
 from urllib3.util.ssl_ import create_urllib3_context
+import certifi
+import ssl
 
 ctx = create_urllib3_context()
 ctx.load_default_certs()
 ctx.options |= 0x4  # ssl.OP_LEGACY_SERVER_CONNECT
 
-with urllib3.PoolManager(ssl_context=ctx) as http:
+with urllib3.PoolManager(ssl_context=ssl.create_default_context(cafile=certifi.where())) as http:
     webpage = http.request("GET", url)
     print(webpage.status)
 
