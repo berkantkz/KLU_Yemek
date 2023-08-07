@@ -25,6 +25,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: prepare environment
+      run: sudo apt install ca-certificates && sudo update-ca-certificates --fresh && export SSL_CERT_DIR=/etc/ssl/certs
+
     - name: execute py script
       run: python api.py
     - name: deploy
