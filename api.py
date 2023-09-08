@@ -18,8 +18,8 @@ with urllib3.PoolManager(ssl_context=ssl.create_default_context(cafile=certifi.w
     webpage = http.request("GET", url)
     print(webpage.status)
 
-data = pq(webpage)
-jsonIn = webpage.find("textarea").html()
+data = pq(webpage.data)
+jsonIn = data.find("textarea").html()
 jsonIn = jsonIn.replace('\\n', '')
 
 getDay = json.loads(jsonIn)
