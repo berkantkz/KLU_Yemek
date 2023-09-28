@@ -1,5 +1,65 @@
 [
   {
+    "day": "SALI",
+    "date": "2023-10-31 00:00:00",
+    "content": "EZOGEL\u0130N \u00c7ORBA,NUGGET-PATATES KIZARTMASI,MAKARNA,MEYVE"
+  },
+  {
+    "day": "PAZARTES\u0130",
+    "date": "2023-10-30 00:00:00",
+    "content": "D\u00dc\u011e\u00dcN \u00c7ORBA,DOMATESL\u0130 B\u0130BERL\u0130 KURU FASULYE,P\u0130R\u0130N\u00c7 P\u0130LAVI,TUR\u015eU"
+  },
+  {
+    "day": "CUMA",
+    "date": "2023-10-27 00:00:00",
+    "content": "SEBZE \u00c7ORBA,BAH\u00c7IVAN KEBABI,GARN\u0130T\u00dcRL\u00dc P\u0130R\u0130N\u00c7 P\u0130LAVI,MANDAL\u0130NA"
+  },
+  {
+    "day": "PER\u015eEMBE",
+    "date": "2023-10-26 00:00:00",
+    "content": " \u015eEHR\u0130YE \u00c7ORBA,KI\u015e T\u00dcRL\u00dcS\u00dc,BULGUR P\u0130LAVI,PUD\u0130NG"
+  },
+  {
+    "day": "\u00c7AR\u015eAMBA",
+    "date": "2023-10-25 00:00:00",
+    "content": "MERC\u0130MEK \u00c7ORBA,\u00c7ITIR TAVUK-ELMA D\u0130L\u0130M PATATES,ER\u0130\u015eTE,AYRAN"
+  },
+  {
+    "day": "SALI",
+    "date": "2023-10-24 00:00:00",
+    "content": "DOMATES  \u00c7ORBA,KADINBUDU K\u00d6FTE-PATATES KIZARTMASI,ZEYT\u0130NYA\u011eLI KEREV\u0130Z,YO\u011eURT"
+  },
+  {
+    "day": "PAZARTES\u0130",
+    "date": "2023-10-23 00:00:00",
+    "content": "TARHANA \u00c7ORBA,KIYMALI YE\u015e\u0130L MERC\u0130MEK, B\u00d6REK,ELMA"
+  },
+  {
+    "day": "CUMA",
+    "date": "2023-10-20 00:00:00",
+    "content": "TERB\u0130YEL\u0130 \u015eEHR\u0130YE \u00c7ORBA,TAVUK KAVURMA,MAKARNA,AYRAN"
+  },
+  {
+    "day": "PER\u015eEMBE",
+    "date": "2023-10-19 00:00:00",
+    "content": "MERC\u0130MEK \u00c7ORBA,KIYMALI TAZE FASULYE,BULGUR P\u0130LAVI,BAKLAVA"
+  },
+  {
+    "day": "\u00c7AR\u015eAMBA",
+    "date": "2023-10-18 00:00:00",
+    "content": "SEBZE \u00c7ORBA,\u0130ZM\u0130R K\u00d6FTE,ER\u0130\u015eTE,MEYVE"
+  },
+  {
+    "day": "SALI",
+    "date": "2023-10-17 00:00:00",
+    "content": "EZOGEL\u0130N \u00c7ORBA,TAVUK D\u00d6NER-SALATA,P\u0130R\u0130N\u00c7 P\u0130LAVI,AYRAN"
+  },
+  {
+    "day": "PAZARTES\u0130",
+    "date": "2023-10-16 00:00:00",
+    "content": "NANEL\u0130 YO\u011eURT \u00c7ORBA,ETL\u0130 NOHUT,BULGUR P\u0130LAVI,CACIK"
+  },
+  {
     "day": "CUMA",
     "date": "2023-10-13 00:00:00",
     "content": "YAYLA \u00c7ORBA,ORMAN KEBABI,B\u00d6REK,KOMPOSTO"
