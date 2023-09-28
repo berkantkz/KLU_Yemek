@@ -1,107 +1,52 @@
 [
   {
     "day": "CUMA",
-    "date": "2023-09-29 00:00:00",
-    "content": "EZOGEL\u0130N \u00c7ORBA,ORMAN KEBABI,SOSLU SPAGETT\u0130,PUD\u0130NG"
+    "date": "2023-10-13 00:00:00",
+    "content": "YAYLA \u00c7ORBA,ORMAN KEBABI,B\u00d6REK,KOMPOSTO"
   },
   {
     "day": "PER\u015eEMBE",
-    "date": "2023-09-28 00:00:00",
-    "content": "DOMATES \u00c7ORBA,PATLICAN MUSAKKA,P\u0130R\u0130N\u00c7 P\u0130LAVI,YO\u011eURT"
+    "date": "2023-10-12 00:00:00",
+    "content": "DOMATES \u00c7ORBA,PATLICAN MUSAKKA,P\u0130R\u0130N\u00c7 P\u0130LAVI,CACIK"
   },
   {
     "day": "\u00c7AR\u015eAMBA",
-    "date": "2023-09-27 00:00:00",
-    "content": "TARHANA \u00c7ORBA,KURU K\u00d6FTE-ELMA D\u0130L\u0130M PATATES,ER\u0130\u015eTE,TULUMBA TATLISI"
+    "date": "2023-10-11 00:00:00",
+    "content": "D\u00dc\u011e\u00dcN \u00c7ORBA,FIRIN TAVUK-PATATES KIZARTMASI,BULGUR P\u0130LAVI,AYRAN"
   },
   {
     "day": "SALI",
-    "date": "2023-09-26 00:00:00",
-    "content": "MERC\u0130MEK \u00c7ORBA,NUGGET-PATATES KIZARTMA,MAKARNA,MEYVE"
+    "date": "2023-10-10 00:00:00",
+    "content": "MERC\u0130MEK \u00c7ORBA ,KURU K\u00d6FTE-PATATES KIZARTMASI,ER\u0130\u015eTE,MEYVE"
   },
   {
     "day": "PAZARTES\u0130",
-    "date": "2023-09-25 00:00:00",
-    "content": "SEBZE \u00c7ORBA,DOMATESL\u0130 B\u0130BERL\u0130 KURU FASULYE,P\u0130R\u0130N\u00c7 P\u0130LAVI,AYRAN"
+    "date": "2023-10-09 00:00:00",
+    "content": "TAVUK SUYU \u00c7ORBA,DOMATESL\u0130 B\u0130BERL\u0130 KURU FASULYE,MISIRLI P\u0130R\u0130N\u00c7 P\u0130LAVI,YO\u011eURT"
   },
   {
     "day": "CUMA",
-    "date": "2023-09-22 00:00:00",
-    "content": "YAYLA \u00c7ORBA,TAS KEBABI,B\u00d6REK,KOMPOSTO"
+    "date": "2023-10-06 00:00:00",
+    "content": "EZOGEL\u0130N \u00c7ORBA,ANKARA TAVA,KARI\u015eIK KIZARTMA,MEYVE"
   },
   {
     "day": "PER\u015eEMBE",
-    "date": "2023-09-21 00:00:00",
-    "content": "\u015eEHR\u0130YE \u00c7ORBA,KI\u015e T\u00dcRL\u00dcS\u00dc,P\u0130R\u0130N\u00c7 P\u0130LAVI,TULUMBA TATLISI"
+    "date": "2023-10-05 00:00:00",
+    "content": "NANEL\u0130 YO\u011eURT \u00c7ORBA,TAVUKLU BEZELYE,BULGUR P\u0130LAVI ,TULUMBA TATLISI"
   },
   {
     "day": "\u00c7AR\u015eAMBA",
-    "date": "2023-09-20 00:00:00",
-    "content": "MERC\u0130MEK \u00c7ORBA,\u0130ZM\u0130R K\u00d6FTE,BULGUR P\u0130LAVI,YO\u011eURT"
+    "date": "2023-10-04 00:00:00",
+    "content": "TARHANA \u00c7ORBA,KADINBUDU K\u00d6FTE-PATATES P\u00dcRES\u0130, FIRIN MAKARNA,YO\u011eURT"
   },
   {
     "day": "SALI",
-    "date": "2023-09-19 00:00:00",
-    "content": "TAVUK SUYU \u00c7ORBA,\u015e\u0130N\u0130TZEL-ELMA D\u0130L\u0130M PATATES,ER\u0130\u015eTE,MEYVE"
+    "date": "2023-10-03 00:00:00",
+    "content": "MERC\u0130MEK \u00c7ORBA,TAVUK \u015e\u0130\u015e-ELMA D\u0130L\u0130M PATATES,MAKARNA,AYRAN"
   },
   {
     "day": "PAZARTES\u0130",
-    "date": "2023-09-18 00:00:00",
-    "content": "TARHANA \u00c7ORBA,ETL\u0130 NOHUT,P\u0130R\u0130N\u00c7 P\u0130LAVI,AYRAN"
-  },
-  {
-    "day": "CUMA",
-    "date": "2023-09-15 00:00:00",
-    "content": "TERB\u0130YEL\u0130 \u015eEHR\u0130YE \u00c7ORBA,TAVUK KAVURMA,ER\u0130\u015eTE,\u00dcZ\u00dcM"
-  },
-  {
-    "day": "PER\u015eEMBE",
-    "date": "2023-09-14 00:00:00",
-    "content": "MERC\u0130MEK \u00c7ORBA,KADINBUDU K\u00d6FTE-PATATES KIZARTMA,FIRIN MAKARNA,BAKLAVA"
-  },
-  {
-    "day": "\u00c7AR\u015eAMBA",
-    "date": "2023-09-13 00:00:00",
-    "content": "TARHANA \u00c7ORBA,ORMAN KEBABI,\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,YO\u011eURT"
-  },
-  {
-    "day": "SALI",
-    "date": "2023-09-12 00:00:00",
-    "content": "EZOGEL\u0130N \u00c7ORBA,KIYMALI BEZELYE,ER\u0130\u015eTE,KALBURABASTI TATLISI"
-  },
-  {
-    "day": "PAZARTES\u0130",
-    "date": "2023-09-11 00:00:00",
-    "content": "SEBZE \u00c7ORBA,DOMATESL\u0130 B\u0130BERL\u0130 KURU FASULYE,GARN\u0130T\u00dcRL\u00dc P\u0130R\u0130N\u00c7 P\u0130LAVI,AYRAN"
-  },
-  {
-    "day": "CUMA",
-    "date": "2023-09-08 00:00:00",
-    "content": "TAVUKSUYU \u00c7ORBA,KURU K\u00d6FTE-SALATA,FIRIN MAKARNA,BAKLAVA"
-  },
-  {
-    "day": "PER\u015eEMBE",
-    "date": "2023-09-07 00:00:00",
-    "content": "DOMATES \u00c7ORBA,PATLICAN MUSAKKA,P\u0130R\u0130N\u00c7 P\u0130LAVI,YO\u011eURT"
-  },
-  {
-    "day": "\u00c7AR\u015eAMBA",
-    "date": "2023-09-06 00:00:00",
-    "content": "MERC\u0130MEK \u00c7ORBA,BAH\u00c7IVAN KEBABI,ER\u0130\u015eTE,KAVUN"
-  },
-  {
-    "day": "SALI",
-    "date": "2023-09-05 00:00:00",
-    "content": "D\u00dc\u011e\u00dcN \u00c7ORBA,TAVUK D\u00d6NER-ELMA D\u0130L\u0130M PATATES,BULGUR P\u0130LAVI,AYRAN"
-  },
-  {
-    "day": "PAZARTES\u0130",
-    "date": "2023-09-04 00:00:00",
-    "content": "TARHANA \u00c7ORBA,ETL\u0130 NOHUT,P\u0130R\u0130N\u00c7 P\u0130LAVI,YO\u011eURT"
-  },
-  {
-    "day": "CUMA",
-    "date": "2023-09-01 00:00:00",
-    "content": "EZOGEL\u0130N \u00c7ORBA,TAVUKLU BEZELYE,FIRIN MAKARNA,TULUMBA TATLISI"
+    "date": "2023-10-02 00:00:00",
+    "content": "DOMATES \u00c7ORBA,ETL\u0130 NOHUT,\u015eEHR\u0130YEL\u0130 P\u0130R\u0130N\u00c7 P\u0130LAVI,CACIK"
   }
 ]
